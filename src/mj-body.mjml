@@ -1,3 +1,4 @@
+<!-- file:src/mj-body.mjml -->
 <mj-body background-color="#fff" width="600px">
   <mj-include path="./mj-body-signature.mjml"/>
 </mj-body>

@@ -1,0 +1,162 @@
+{
+  "clientName": "Pilates Via",
+
+  "brandIdentity": {
+    "baseURL": "https://worksport.se/brand/",
+    "colors": {
+      // Primary shades and tints directly from automatic.css
+      "primary": "#6d126f",
+      "primary-hover": "#821584",
+      "primary-ultra-light": "#fbe9fb",
+      "primary-light": "#f3bdf4",
+      "primary-semi-light": "#e465e6",
+      "semi-dark": "#97199a",
+      "dark": "#6c126e",
+      "ultra-dark": "#2b072c",
+
+      // Primary transparent colors
+      "primary-trans": {
+        "10": "rgba(109, 18, 111, 0.1)", "20": "rgba(109, 18, 111, 0.2)",
+        "30": "rgba(109, 18, 111, 0.3)", "40": "rgba(109, 18, 111, 0.4)",
+        "50": "rgba(109, 18, 111, 0.5)", "60": "rgba(109, 18, 111, 0.6)",
+        "70": "rgba(109, 18, 111, 0.7)", "80": "rgba(109, 18, 111, 0.8)",
+        "90": "rgba(109, 18, 111, 0.9)"
+      },
+      "primary-light-trans": {
+        "10": "rgba(243, 189, 244, 0.1)", "20": "rgba(243, 189, 244, 0.2)",
+        "30": "rgba(243, 189, 244, 0.3)", "40": "rgba(243, 189, 244, 0.4)",
+        "50": "rgba(243, 189, 244, 0.5)", "60": "rgba(243, 189, 244, 0.6)",
+        "70": "rgba(243, 189, 244, 0.7)", "80": "rgba(243, 189, 244, 0.8)",
+        "90": "rgba(243, 189, 244, 0.9)"
+      },
+      "primary-dark-trans": {
+        "10": "rgba(108, 18, 110, 0.1)", "20": "rgba(108, 18, 110, 0.2)",
+        "30": "rgba(108, 18, 110, 0.3)", "40": "rgba(108, 18, 110, 0.4)",
+        "50": "rgba(108, 18, 110, 0.5)", "60": "rgba(108, 18, 110, 0.6)",
+        "70": "rgba(108, 18, 110, 0.7)", "80": "rgba(108, 18, 110, 0.8)",
+        "90": "rgba(108, 18, 110, 0.9)"
+      },
+      "primary-ultra-dark-trans": {
+        "10": "rgba(43, 7, 44, 0.1)", "20": "rgba(43, 7, 44, 0.2)",
+        "30": "rgba(43, 7, 44, 0.3)", "40": "rgba(43, 7, 44, 0.4)",
+        "50": "rgba(43, 7, 44, 0.5)", "60": "rgba(43, 7, 44, 0.6)",
+        "70": "rgba(43, 7, 44, 0.7)", "80": "rgba(43, 7, 44, 0.8)",
+        "90": "rgba(43, 7, 44, 0.9)"
+      },
+
+      // Neutral shades and tints directly from automatic.css
+      "neutral": "#000000",
+      "neutral-hover": "black",
+      "neutral-ultra-light": "#f2f2f2",
+      "neutral-light": "#d9d9d9",
+      "neutral-semi-light": "#a6a6a6",
+      "neutral-semi-dark": "#595959",
+      "neutral-dark": "#404040",
+      "neutral-ultra-dark": "#1a1a1a",
+
+      // Neutral transparent colors
+      "neutral-trans": {
+        "10": "rgba(0, 0, 0, 0.1)", "20": "rgba(0, 0, 0, 0.2)",
+        "30": "rgba(0, 0, 0, 0.3)", "40": "rgba(0, 0, 0, 0.4)",
+        "50": "rgba(0, 0, 0, 0.5)", "60": "rgba(0, 0, 0, 0.6)",
+        "70": "rgba(0, 0, 0, 0.7)", "80": "rgba(0, 0, 0, 0.8)",
+        "90": "rgba(0, 0, 0, 0.9)"
+      },
+      "neutral-light-trans": {
+        "10": "rgba(217, 217, 217, 0.1)", "20": "rgba(217, 217, 217, 0.2)",
+        "30": "rgba(217, 217, 217, 0.3)", "40": "rgba(217, 217, 217, 0.4)",
+        "50": "rgba(217, 217, 217, 0.5)", "60": "rgba(217, 217, 217, 0.6)",
+        "70": "rgba(217, 217, 217, 0.7)", "80": "rgba(217, 217, 217, 0.8)",
+        "90": "rgba(217, 217, 217, 0.9)"
+      },
+      "neutral-dark-trans": {
+        "10": "rgba(64, 64, 64, 0.1)", "20": "rgba(64, 64, 64, 0.2)",
+        "30": "rgba(64, 64, 64, 0.3)", "40": "rgba(64, 64, 64, 0.4)",
+        "50": "rgba(64, 64, 64, 0.5)", "60": "rgba(64, 64, 64, 0.6)",
+        "70": "rgba(64, 64, 64, 0.7)", "80": "rgba(64, 64, 64, 0.8)",
+        "90": "rgba(64, 64, 64, 0.9)"
+      },
+      "neutral-ultra-dark-trans": {
+        "10": "rgba(26, 26, 26, 0.1)", "20": "rgba(26, 26, 26, 0.2)",
+        "30": "rgba(26, 26, 26, 0.3)", "40": "rgba(26, 26, 26, 0.4)",
+        "50": "rgba(26, 26, 26, 0.5)", "60": "rgba(26, 26, 26, 0.6)",
+        "70": "rgba(26, 26, 26, 0.7)", "80": "rgba(26, 26, 26, 0.8)",
+        "90": "rgba(26, 26, 26, 0.9)"
+      },
+
+      // Basic black and white from automatic.css, and their transparent variations
+      "white": "#fff",
+      "black": "#000",
+      "white-trans": {
+        "10": "rgba(255, 255, 255, 0.1)", "20": "rgba(255, 255, 255, 0.2)",
+        "30": "rgba(255, 255, 255, 0.3)", "40": "rgba(255, 255, 255, 0.4)",
+        "50": "rgba(255, 255, 255, 0.5)", "60": "rgba(255, 255, 255, 0.6)",
+        "70": "rgba(255, 255, 255, 0.7)", "80": "rgba(255, 255, 255, 0.8)",
+        "90": "rgba(255, 255, 255, 0.9)"
+      },
+      "black-trans": {
+        "10": "rgba(0, 0, 0, 0.1)", "20": "rgba(0, 0, 0, 0.2)",
+        "30": "rgba(0, 0, 0, 0.3)", "40": "rgba(0, 0, 0, 0.4)",
+        "50": "rgba(0, 0, 0, 0.5)", "60": "rgba(0, 0, 0, 0.6)",
+        "70": "rgba(0, 0, 0, 0.7)", "80": "rgba(0, 0, 0, 0.8)",
+        "90": "rgba(0, 0, 0, 0.9)"
+      },
+
+      // Link-specific colors
+      "links": {
+        "default": "#00316d",
+        "footer": "#000307",
+        "hover": "#003D87"
+      },
+
+      // Other specific usage colors, flat structure for direct mapping
+      "accentColor": "#861689",
+      "lightBackground": "#f2f5f9", // Used for mj-section in signature
+      "tableHeaderColor": "#91accb",
+      "tableDataColor": "#c2d0e2",
+      "buttonDefaultBackgroundColor": "#00316d",
+      "socialIconColor": "#003D87",
+      "textDefaultColor": "#000307",
+      "textAccentColor": "#396843",
+      "productFeatureBg1": "#5CA76C",
+      "productFeatureBg2": "#475862",
+      "socialIconCircleBg": "#CFEDD5"
+    },
+    "fontPrimaryFamily": "'Tilt Neon'",
+    "fontSecondaryFamily": "system-ui, 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "fontPrimaryHref": "fonts/fonts-email-august-bold.css",
+    "fontSecondaryHref": "fonts/fonts-email-inter-tight.css"
+  },
+
+  "personDetails": {
+    "baseURL": "",
+    "name": "Håkan Wikström",
+    "title": "VD & Ägare",
+    "photoUrl": "email/hakan-wikstrom-foto-email.png",
+    "photoSrcset": "email/hakan-wikstrom-foto-email-80x80.png 80w,\n                    email/hakan-wikstrom-foto-email-240x240.png 240w,\n                    email/hakan-wikstrom-foto-email-320x320.png 320w,\n                    email/hakan-wikstrom-foto-email-480x480.png 480w"
+
+  },
+  "contactLinks": {
+    "baseURL": "https://go.worksport.se/",
+    "callLink": "ring",
+    "mailLink": "mejla",
+    "linkedinLink": "linkedin",
+    "websiteLink": "webbsajt",
+    "chatLink": "chatta",
+    "findUsLink": "hitta"
+  },
+
+  "assetPaths": {
+    "baseURL": "https://dev.worksport.se/brand/",
+    "imageFolder": "email/",
+    "fontFolder": "fonts/",
+    "logoImageUrl": "email/work-and-sport-portrait-logo-email-glow.png",
+    "logoImageSrcset": "email/work-and-sport-portrait-logo-email-glow-300x.png 300w,\n                    email/work-and-sport-portrait-logo-email-glow-400x.png 400w,\n                    email/work-and-sport-portrait-logo-email-glow-600x.png 600w,\n                    email/work-and-sport-portrait-logo-email-glow-800x.png 800w",
+    "caretRightIconUrl": "email/caret-right-email.png",
+    "caretRightIconSrcset": "email/caret-right-email-36x36.png 36w,\n                            email/caret-right-email-48x48.png 48w,\n                            email/caret-right-email-72x72.png 72w,\n                            email/caret-right-email-96x96.png 96w"
+  },
+
+  "developmentSettings": {
+    // This section can be used for settings specific to development/testing.
+  }
+}
