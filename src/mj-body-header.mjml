@@ -1,0 +1,71 @@
+<!-- The Header of the Email -->
+
+<!-- Sections are intended to be used as rows within your email. They will be used to structure the layout.Sections cannot nest in sections. Columns can nest in sections; all content must be in a column.
+
+The full-width property will be used to manage the background width. By default, it will be 600px. With the full-width property on, it will be changed to 100%.
+
+Inverting the order in which columns display: set the `direction` attribute to `rtl` to change the order in which columns display on desktop. Because MJML is mobile-first, structure the columns in the order you want them to stack on mobile, and use `direction` to change the order they display on desktop.
+
+Sections are centered by default.
+
+Key Properties (see. https://documentation.mjml.io/#mj-section)
+--
+full-width="full-width"
+background-position (default = top center. )
+padding (default = 20px 0)
+text-align (default = center)
+-->
+
+<!-- Top: Brand Section -->
+<mj-section full-width="full-width" background-color="#CFEDD5" padding="0">
+  <mj-column background-color="#CFEDD5">
+    <mj-image src="https://refine.digital/brand/logo/logo.png" alt="refine.digital brand logo"/>
+  </mj-column>
+</mj-section>
+
+<!-- Middle: Title Section  -->
+<mj-section full-width="full-width" background-color="#CFEDD5" padding="0">
+  <mj-column background-color="#CFEDD5">
+          <mj-text align="center" css-class="text-heavy">
+              <h1>Digital Accelleration</h1>
+          </mj-text>
+          <mj-text align="center" mj-class="text-xl" css-class="text-soft" padding="24px 0px">
+              Stockholm
+              <br/>
+              Sweden
+          </mj-text>
+  </mj-column>
+</mj-section>
+
+<!-- Bottom: Split Header - Top Image
+<mj-section full-width="full-width" background-color="#CFEDD5" padding="0">
+  <mj-column background-color="#CFEDD5" padding="0">
+    <mj-image src="https://refine.digital/brand/email/email-header-top.png" alt="email header bottom" padding="0" border-radius="0"/>
+  </mj-column>
+</mj-section>
+-->
+
+<mj-wrapper full-width="full-width" background-color="#CFEDD5" padding="0">
+  <mj-hero
+    background-url="https://refine.digital/brand/email/email-header-top.png"
+    background-position="bottom center"
+    background-height="300px"
+    >
+    <mj-text align="center" color="#fff" padding="0 25px">
+      <h1 class="text-heavy">Hero Section</h1>
+      <h4 class="text-heavy">We know how digital experiences can make a difference on the bottom line.<h4>
+    </mj-text>
+  </mj-hero>
+</mj-wrapper>
+
+<!-- Bottom: Split Header - Bottom Image -->
+<mj-wrapper full-width="full-width" background-color="#e1e1e1" padding="0">
+  <mj-hero
+    background-color="#5CA76C"
+    background-height="150px"
+    >
+    <mj-button href="https://refine.digital/" mj-class="text-m">
+      GO
+    </mj-button>
+  </mj-hero>
+</mj-wrapper>

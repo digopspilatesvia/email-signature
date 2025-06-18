@@ -1,0 +1,14 @@
+{
+  "name": "signature",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "mjml src/index-full.mjml --output ./signature-full.html",
+    "build": "mjml src/index-lite.mjml --output ./signature-lite.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "description": ""
+}

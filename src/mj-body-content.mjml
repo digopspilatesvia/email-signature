@@ -1,0 +1,681 @@
+<!-- The Content of the Email
+    mj-column adds a gutter padding if one column
+-->
+
+<mj-wrapper padding-top="0" padding-bottom="0" css-class="box_shadow" >
+  <mj-section >
+    <mj-column>
+      <mj-text css-class="section__h">
+        <h2>Typography</h2>
+      </mj-text>
+    </mj-column>
+  </mj-section>
+
+  <!-- TYPOGRAPHY  -->
+  <mj-section>
+    <mj-column>
+      <!-- Standard Text | h1-h5, p -->
+      <mj-text css-class="section__h">
+        <h4>Standard Text | h1-h5, p</h4>
+      </mj-text>
+    </mj-column>
+
+    <mj-column>
+      <!-- Standard Text https://documentation.mjml.io/#mj-text -->
+      <mj-text>
+          <h1>Heading 1</h1>
+          <h2>Heading 2</h2>
+          <h3>Heading 3</h3>
+          <h4>Heading 4</h4>
+          <h5>Heading 5</h5>
+          <p>Paragraph https://documentation.mjml.io/#mj-text</p>
+          No Paragraph https://documentation.mjml.io/#mj-text
+      </mj-text>
+    </mj-column>
+
+    <mj-column>
+      <mj-divider/>
+
+      <!-- Standard Text | Centered -->
+      <mj-text css-class="section__h">
+        <h4>Standard Text | Centered</h4>
+      </mj-text>
+
+      <mj-text align="center">
+        <p>Lorem ipsum... åääö!</p>
+        <p>Lorem ipsum... åääö!</p>
+        Lorem ipsum... åääö!
+      </mj-text>
+    </mj-column>
+
+  </mj-section>
+
+  <!-- STANDARD BODY COMPONENTS  -->
+  <mj-section>
+    <mj-column>
+      <mj-divider/>
+
+      <mj-text css-class="section__h">
+        <h3>Body Components</h3>
+      </mj-text>
+    </mj-column>
+  </mj-section>
+
+  <mj-section>
+    <mj-column>
+      <mj-text css-class="section__h">
+        <h4>Accordion</h4>
+      </mj-text>
+    </mj-column>
+
+    <!-- Standard Accordion -->
+    <mj-column>
+      <mj-accordion>
+        <mj-accordion-element>
+          <mj-accordion-title>Accordion Title 1</mj-accordion-title>
+          <mj-accordion-text>
+            <h5>Accordion Text Headline</h5>
+            <p>Accordion Text Paragraph 1.</p>
+            <p>Accordion Text Paragraph 2.</p>
+            <p>Accordion Text Paragraph 3.</p>
+          </mj-accordion-text>
+        </mj-accordion-element>
+        <mj-accordion-element>
+          <mj-accordion-title>Accordion Title 2</mj-accordion-title>
+          <mj-accordion-text>
+            <h5>Accordion Text Headline</h5>
+            <p>Accordion Text Paragraph 1.</p>
+            <p>Accordion Text Paragraph 2.</p>
+            <p>Accordion Text Paragraph 3.</p>
+          </mj-accordion-text>
+        </mj-accordion-element>
+      </mj-accordion>
+    </mj-column>
+  </mj-section>
+
+  <mj-section>
+    <mj-column>
+      <mj-divider/>
+
+      <mj-text css-class="section__h">
+        <h4>Buttons</h4>
+      </mj-text>
+    </mj-column>
+
+    <!-- Standard Buttons -->
+    <mj-column>
+      <mj-button href="https://refine.digital/" title="Button tooltip" css-class="icon-button">
+        Standard Button
+      </mj-button>
+
+      <!-- Icon <i> Button 1 -->
+      <mj-button href="https://refine.digital/" title="Button tooltip" css-class="icon-button">
+        <div>Icon Button i<i></i></div>
+      </mj-button>
+
+      <!-- Icon <img> Button 1 -->
+      <mj-button href="https://refine.digital/" title="Button tooltip" css-class="icon-button">
+        <div>Icon Button img<img src="https://refine.digital/brand/icons/caret-right.png"></div>
+      </mj-button>
+    </mj-column>
+
+    <mj-column>
+      <mj-divider/>
+    </mj-column>
+
+    <mj-column>
+      <mj-text css-class="section__h">
+        <h4>Carousel</h4>
+      </mj-text>
+    </mj-column>
+  </mj-section>
+
+  <mj-section>
+    <mj-column padding="0">
+      <!-- Standard Carousel -->
+      <mj-carousel>
+        <mj-carousel-image
+          title="Sample Image 1"
+          alt="Sample Image 1"
+          src="https://refine.digital/brand/email/sample/sample-portrait-1-720x1200.jpg"
+          href="https://refine.digital/?source=sample-portrait-1-720x1200.jpg"
+        />
+        <mj-carousel-image
+          title="Sample Image 2"
+          alt="Sample Image 2"
+          src="https://refine.digital/brand/email/sample/sample-portrait-2-720x1200.jpg"
+          href="https://refine.digital/?source=sample-portrait-2-720x1200.jpg"
+        />
+        <mj-carousel-image
+          title="Sample Image 3"
+          alt="Sample Image 3"
+          src="https://refine.digital/brand/email/sample/sample-portrait-3-720x1200.jpg"
+          href="https://refine.digital/?source=sample-portrait-3-720x1200.jpg"
+        />
+        <mj-carousel-image
+          title="Sample Image 4"
+          alt="Sample Image 4"
+          src="https://refine.digital/brand/email/sample/sample-portrait-4-720x1200.jpg"
+          href="https://refine.digital/?source=sample-portrait-4-720x1200.jpg"
+        />
+        <mj-carousel-image
+          title="Sample Image 5"
+          alt="Sample Image 5"
+          src="https://refine.digital/brand/email/sample/sample-portrait-5-720x1200.jpg"
+          href="https://refine.digital/?source=sample-portrait-5-720x1200.jpg"
+        />
+      </mj-carousel>
+    </mj-column>
+  </mj-section>
+
+  <mj-section>
+    <mj-column>
+      <mj-divider/>
+
+      <mj-text css-class="section__h">
+        <h3>Columns</h3>
+      </mj-text>
+    </mj-column>
+  </mj-section>
+
+  <mj-section>
+    <mj-column>
+      <mj-text css-class="section__h">
+        <h4>Three Columns</h4>
+      </mj-text>
+    </mj-column>
+
+    <!-- Column 1 -->
+    <mj-column width="33.33333333%">
+      <mj-image src="https://refine.digital/brand/email/sample/sample-landscape-1-1200x720.jpg"></mj-image>
+      <mj-text><h5>Column 1</h5></mj-text>
+      <mj-text padding="12px 0 0 0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</mj-text>
+      <mj-button href="https://refine.digital/" title="Button tooltip" css-class="icon-link" align="left">
+        <div>click<img src="https://refine.digital/brand/icons/caret-right.png"></div>
+      </mj-button>
+    </mj-column>
+
+      <!-- Column 2 -->
+    <mj-column width="33.33333333%">
+      <mj-image src="https://refine.digital/brand/email/sample/sample-square-2-1200x1200.jpg"></mj-image>
+      <mj-text align="center"><h5>Column 2</h5></mj-text>
+      <mj-text padding="12px 0 0 0" align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</mj-text>
+      <mj-button href="https://refine.digital/" title="Button tooltip" css-class="icon-link" align="center">
+        <div>click<img src="https://refine.digital/brand/icons/caret-right.png"></div>
+      </mj-button>
+    </mj-column>
+
+    <!-- Column 3 -->
+    <mj-column width="33.33333333%">
+      <mj-image src="https://refine.digital/brand/email/sample/sample-portrait-3-720x1200.jpg"></mj-image>
+      <mj-text align="right"><h5>Column 3</h5></mj-text>
+      <mj-text padding="12px 0 0 0" align="right">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</mj-text>
+      <mj-button href="https://refine.digital/" title="Button tooltip" css-class="icon-button" align="right">
+        <div>click<img src="https://refine.digital/brand/icons/caret-right.png"></div>
+      </mj-button>
+    </mj-column>
+  </mj-section>
+
+  <mj-section>
+    <mj-column>
+      <mj-text css-class="section__h">
+        <h4>Two Columns</h4>
+      </mj-text>
+    </mj-column>
+
+    <!-- Column 1 -->
+    <mj-column width="50%">
+      <mj-image src="https://refine.digital/brand/email/sample/sample-square-1-1200x1200.jpg"></mj-image>
+      <mj-text padding="12px 0 0 0"><h5>Column 1</h5></mj-text>
+      <mj-text padding="12px 0 0 0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</mj-text>
+      <mj-button href="https://refine.digital/" title="Button tooltip" css-class="icon-link" align="left">
+        <div>click<img src="https://refine.digital/brand/icons/caret-right.png"></div>
+      </mj-button>
+    </mj-column>
+
+      <!-- Column 2 -->
+    <mj-column width="50%">
+      <mj-image src="https://refine.digital/brand/email/sample/sample-square-2-1200x1200.jpg"></mj-image>
+      <mj-text align="right"><h5>Column 2</h5></mj-text>
+      <mj-text padding="12px 0 0 0" align="right">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</mj-text>
+      <mj-button href="https://refine.digital/" title="Button tooltip" css-class="icon-link" align="right">
+        <div>click<img src="https://refine.digital/brand/icons/caret-right.png"></div>
+      </mj-button>
+    </mj-column>
+  </mj-section>
+
+  <mj-section>
+    <mj-column>
+      <mj-divider/>
+    </mj-column>
+  </mj-section>
+
+    <!-- Column 1 -->
+    <mj-section>
+      <mj-column width="60%">
+        <mj-image src="https://refine.digital/brand/email/sample/sample-square-1-1200x1200.jpg"></mj-image>
+        <mj-text><h5>Column 1</h5></mj-text>
+        <mj-text padding="12px 0 0 0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</mj-text>
+        <mj-button href="https://refine.digital/" title="Button tooltip" css-class="icon-link" align="left">
+          <div>click<img src="https://refine.digital/brand/icons/caret-right.png"></div>
+        </mj-button>
+      </mj-column>
+
+      <!-- Column 2 -->
+      <mj-column width="40%">
+        <mj-image src="https://refine.digital/brand/email/sample/sample-portrait-2-720x1200.jpg"></mj-image>
+        <mj-text align="right"><h5>Column 2</h5></mj-text>
+        <mj-text padding="12px 0 0 0" align="right">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</mj-text>
+        <mj-button href="https://refine.digital/" title="Button tooltip" css-class="icon-link" align="right">
+          <div>click<img src="https://refine.digital/brand/icons/caret-right.png"></div>
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-divider/>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+    <!-- Column 1 -->
+    <mj-column width="40%">
+      <mj-image src="https://refine.digital/brand/email/sample/sample-portrait-1-720x1200.jpg"></mj-image>
+      <mj-text padding="12px 0 0 0"><h5>Column 1</h5></mj-text>
+      <mj-text padding="12px 0 0 0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</mj-text>
+      <mj-button href="https://refine.digital/" title="Button tooltip" css-class="icon-link" align="left">
+        <div>click<img src="https://refine.digital/brand/icons/caret-right.png"></div>
+      </mj-button>
+    </mj-column>
+
+      <!-- Column 2 -->
+    <mj-column width="60%">
+      <mj-image src="https://refine.digital/brand/email/sample/sample-square-2-1200x1200.jpg"></mj-image>
+      <mj-text padding="12px 0 0 0" align="right"><h5>Column 2</h5></mj-text>
+      <mj-text padding="12px 0 0 0" align="right">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</mj-text>
+      <mj-button href="https://refine.digital/" title="Button tooltip" css-class="icon-link" align="right">
+        <div>click<img src="https://refine.digital/brand/icons/caret-right.png"></div>
+      </mj-button>
+    </mj-column>
+  </mj-section>
+
+  <mj-section>
+    <mj-column>
+      <mj-text css-class="section__h">
+        <h4>One + Two Columns</h4>
+      </mj-text>
+    </mj-column>
+  </mj-section>
+
+  <mj-section>
+    <!-- Standard Column 1 -->
+    <mj-column width="100%">
+      <mj-image src="https://refine.digital/brand/email/sample/sample-square-1-1200x1200.jpg"></mj-image>
+      <mj-text padding="12px 0 0 0" align="center"><h4>Standard Column 1</h4></mj-text>
+      <mj-text padding="12px 0 0 0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</mj-text>
+      <mj-button href="https://refine.digital/" title="Button tooltip" css-class="icon-link" align="left">
+        <div>click<img src="https://refine.digital/brand/icons/caret-right.png"></div>
+      </mj-button>
+    </mj-column>
+
+      <!-- Standard Column 2 -->
+    <mj-column width="50%">
+      <mj-image src="https://refine.digital/brand/email/sample/sample-square-2-1200x1200.jpg"></mj-image>
+      <mj-text padding="12px 0 0 0"><h5>Standard Column 2</h5></mj-text>
+      <mj-text padding="12px 0 0 0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</mj-text>
+      <mj-button href="https://refine.digital/" title="Button tooltip" css-class="icon-link" align="left">
+        <div>click<img src="https://refine.digital/brand/icons/caret-right.png"></div>
+      </mj-button>
+    </mj-column>
+
+    <!-- Standard Column 3 -->
+    <mj-column width="50%">
+      <mj-image src="https://refine.digital/brand/email/sample/sample-square-3-1200x1200.jpg"></mj-image>
+      <mj-text padding="12px 0 0 0" align="right"><h5>Standard Column 3</h5></mj-text>
+      <mj-text padding="12px 0 0 0" align="right">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</mj-text>
+      <mj-button href="https://refine.digital/" title="Button tooltip" css-class="icon-button" align="right">
+        <div>click<img src="https://refine.digital/brand/icons/caret-right.png"></div>
+      </mj-button>
+    </mj-column>
+  </mj-section>
+
+  <mj-section>
+    <mj-column>
+      <mj-divider/>
+    </mj-column>
+  </mj-section>
+
+  <mj-section>
+    <mj-column>
+      <mj-text css-class="section__h">
+        <h4>Hero Sections</h4>
+      </mj-text>
+    </mj-column>
+  </mj-section>
+
+  <!-- hero -->
+  <!-- NOTE! mj-hero cannot be inside a mj-section -->
+  <mj-hero
+    background-height="400px"
+    background-url="https://refine.digital/brand/email/sample/sample-square-dark-1-1200x1200.jpg"
+    >
+    <mj-text align="center" color="#fff">
+      <h1 class="text-heavy">Digital Experiences Refined</h1>
+    </mj-text>
+    <mj-button href="https://refine.digital/" mj-class="text-xs">
+      HERO STYLE 1
+    </mj-button>
+  </mj-hero>
+
+  <mj-hero
+    background-height="400px"
+    background-url="https://refine.digital/brand/email/sample/sample-square-dark-3-1200x1200.jpg"
+    >
+    <mj-text align="center" color="#fff" >
+      <h2 class="text-glow">Digital Experiences Refined</h2>
+      <p>Lorem ipsum. Lorem ipsum.Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum.</p>
+    </mj-text>
+    <mj-button href="https://refine.digital/" mj-class="text-m text-soft">
+      HERO STYLE 2
+    </mj-button>
+  </mj-hero>
+
+  <mj-section>
+    <mj-column>
+      <mj-divider/>
+    </mj-column>
+  </mj-section>
+
+  <mj-hero
+    background-height="400px"
+    background-url="https://refine.digital/brand/email/sample/sample-square-light-2-1200x1200.jpg"
+    >
+    <mj-text align="center">
+      <h1 class="text-heavy">Digital Experiences Refined</h1>
+    </mj-text>
+    <mj-button href="https://refine.digital/" mj-class="text-xs">
+      HERO STYLE 1
+    </mj-button>
+  </mj-hero>
+
+  <mj-hero
+    background-height="400px"
+    background-url="https://refine.digital/brand/email/sample/sample-square-light-3-1200x1200.jpg"
+    >
+    <mj-text align="center">
+      <h2 class="text-glow">Digital Experiences Refined</h2>
+      <p>Lorem ipsum. Lorem ipsum.Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum.</p>
+    </mj-text>
+    <mj-button href="https://refine.digital/" mj-class="text-m text-soft">
+      HERO STYLE 2
+    </mj-button>
+  </mj-hero>
+
+
+  <!-- featured article -->
+  <mj-section>
+    <mj-column>
+      <mj-image src="https://refine.digital/brand/email/sample/sample-landscape-3-1200x720.jpg"/>
+      <mj-text color="#396843" text-transform="uppercase" padding="25px 0 0 0">
+        refine.digital
+      </mj-text>
+      <mj-text padding="0">
+        <h3>Digital Experiences Refined</h3>
+      </mj-text>
+      <mj-text padding="12px 0 0 0">
+        Lorem ipsum. Lorem ipsum.Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum.
+      </mj-text>
+      <mj-button href="https://refine.digital/" mj-class="text-xs" align="left">
+        FEATURED ARTICLE 1
+      </mj-button>
+    </mj-column>
+  </mj-section>
+
+  <!-- featured article 2 -->
+  <mj-section>
+    <mj-column>
+      <mj-text color="#396843" text-transform="uppercase">
+        refine.digital
+      </mj-text>
+      <mj-text padding="0">
+        <h3>Digital Experiences Refined</h3>
+      </mj-text>
+      <mj-image src="https://refine.digital/brand/email/sample/sample-landscape-4-1200x720.jpg" padding="25px 0 0 0"/>
+      <mj-text padding="12px 0 0 0">
+        Lorem ipsum. Lorem ipsum.Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum.
+      </mj-text>
+      <mj-button href="https://refine.digital/" mj-class="text-xs" align="left">
+        FEATURED ARTICLE 2
+      </mj-button>
+    </mj-column>
+  </mj-section>
+
+  <!-- article image aligned left & centered -->
+  <mj-section>
+    <mj-column width="50%" vertical-align="middle">
+      <mj-image src="https://refine.digital/brand/email/sample/sample-portrait-4-720x1200.jpg" border-radius="12px" height="300px"/>
+    </mj-column>
+    <mj-column width="50%" vertical-align="middle">
+      <mj-text padding="0 25px 0 0" color="#396843" text-transform="uppercase">
+        refine.digital
+      </mj-text>
+      <mj-text padding="0 25px 0 0">
+        <h4>Digital Experiences Refined</h4>
+      </mj-text>
+      <mj-text padding="12px 25px 0 0">
+        Lorem ipsum. Lorem ipsum.Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum.
+      </mj-text>
+      <mj-button href="https://refine.digital/" mj-class="text-xs" align="left">
+        ARTICLE ALIGNED LEFT
+      </mj-button>
+    </mj-column>
+  </mj-section>
+
+  <mj-section>
+    <mj-column>
+      <mj-divider/>
+    </mj-column>
+  </mj-section>
+
+  <!-- Products Featured -->
+  <mj-section background-color="#5CA76C" padding="0">
+    <mj-column width="50%" padding="0">
+      <mj-image fluid-on-mobile="true" src="https://refine.digital/brand/email/sample/sample-square-3-1200x1200.jpg" alt="Sample Square 3"  border-radius="0" padding="0"></mj-image>
+    </mj-column>
+    <mj-column width="50%" padding="10px 0">
+      <mj-text color="#fff" padding="0 0 0 25px"><h5>PRODUCT NAME HERE</h5></mj-text>
+      <mj-text color="#fff" padding="0 0 0 25px"><h2 style="margin-block:0!important">75&#x20AC;</h2></mj-text>
+      <mj-text color="#fff" padding="0 0 0 25px">
+        <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
+      </mj-text>
+      <mj-button css-class="icon-button" href="https://refine.digital/" background-color="#ffffff">
+        <div>BUY NOW<img src="https://refine.digital/brand/icons/caret-right.png"></div>
+      </mj-button>
+    </mj-column>
+  </mj-section>
+
+  <mj-section background-color="#475862" padding="0">
+    <mj-column width="50%" padding="10px 0">
+      <mj-text color="#fff" padding="0 0 0 25px"><h5>PRODUCT NAME HERE</h5></mj-text>
+      <mj-text color="#fff" padding="0 0 0 25px"><h2 style="margin-block:0!important">75&#x20AC;</h2></mj-text>
+      <mj-text color="#fff" padding="0 0 0 25px">
+        <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
+      </mj-text>
+      <mj-button css-class="icon-button" href="https://refine.digital/" background-color="#ffffff">
+        <div>BUY NOW<img src="https://refine.digital/brand/icons/caret-right.png"></div>
+      </mj-button>
+    </mj-column>
+    <mj-column width="50%" padding="0">
+      <mj-image fluid-on-mobile="true" src="https://refine.digital/brand/email/sample/sample-square-5-1200x1200.jpg" alt="Sample Square 5"  border-radius="0" padding="0"></mj-image>
+    </mj-column>
+  </mj-section>
+
+  <mj-section background-color="#5CA76C">
+    <mj-column>
+      <mj-text align="center" color="#fff" padding-bottom="25px">
+        <h3>DISCOVER OUR<br>SUMMER COLLECTION</h3>
+      </mj-text>
+    </mj-column>
+  </mj-section>
+
+  <!-- navbar -->
+  <mj-section>
+    <mj-column>
+        <mj-navbar base-url="https://refine.digital/" hamburger="hamburger">
+          <mj-navbar-link mj-class="text-s">HOME</mj-navbar-link>
+          <mj-navbar-link href="?source=link1" mj-class="text-s">Link 1</mj-navbar-link>
+          <mj-navbar-link href="?source=link2" mj-class="text-s">Link 2</mj-navbar-link>
+          <mj-navbar-link href="?source=link3" mj-class="text-s">Link 3</mj-navbar-link>
+        </mj-navbar>
+    </mj-column>
+  </mj-section>
+
+  <mj-section>
+    <mj-column>
+      <mj-divider/>
+    </mj-column>
+  </mj-section>
+
+  <!-- social -->
+  <mj-section>
+    <mj-column>
+      <mj-social>
+        <!-- to use custom href without social share feature, add -noshare to the name, ex. facebook-noshare. Default the href is added as a parameter the social share url -->
+        <mj-social-element
+          name="x"
+          src="https://refine.digital/brand/icons/x-logo-transparent.png"
+          href="https://refine.digital/#x"
+          background-color="#CFEDD5"
+          text-padding="0"
+          title="Share on X">
+          &nbsp;
+        </mj-social-element>
+        <mj-social-element
+          name="x"
+          src="https://refine.digital/brand/icons/x-logo.png"
+          href="https://refine.digital/#x"
+          title="Share on X">
+          &nbsp;
+        </mj-social-element>
+        <mj-social-element
+          name="facebook"
+          src="https://refine.digital/brand/icons/facebook-logo.png"
+          href="https://refine.digital/#source=facebook">
+          Facebook
+        </mj-social-element>
+        <mj-social-element
+          name="linkedin"
+          src="https://refine.digital/brand/icons/linkedin-logo.png"
+          href="https://refine.digital/#linkedin">
+          Linkedin
+        </mj-social-element>
+        <mj-social-element
+          name="instagram"
+          src="https://refine.digital/brand/icons/instagram-logo.png"
+          href="https://refine.digital/#instagram">
+          Instagram
+        </mj-social-element>
+        <mj-social-element
+          name="youtube"
+          src="https://refine.digital/brand/icons/youtube-logo.png"
+          href="https://refine.digital/#youtube">
+          Youtube
+        </mj-social-element>
+        <mj-social-element
+          name="web"
+          src="https://refine.digital/brand/icons/web-logo.png"
+          href="https://refine.digital/#web">
+          Web
+        </mj-social-element>
+        <!-- to use any custom icon and link, add your own name and href, background-color (if you want) -->
+        <mj-social-element
+          name="meta"
+          href="https://refine.digital/#meta"
+          src="https://refine.digital/brand/icons/meta-logo.png">
+          meta
+        </mj-social-element>
+        <mj-social-element
+          name="treads"
+          href="https://refine.digital/#threads"
+          src="https://refine.digital/brand/icons/threads-logo.png">
+          threads
+        </mj-social-element>
+        <mj-social-element
+          name="messenger"
+          href="https://refine.digital/#messenger"
+          src="https://refine.digital/brand/icons/messenger-logo.png">
+          messenger
+        </mj-social-element>
+        <mj-social-element
+          name="chat"
+          href="https://refine.digital/#chat"
+          src="https://refine.digital/brand/icons/chat-circle-text.png">
+          chat
+        </mj-social-element>
+        <mj-social-element
+          name="whatsapp"
+          href="https://refine.digital/#whatsapp"
+          src="https://refine.digital/brand/icons/whatsapp-logo.png">
+          whatsapp
+        </mj-social-element>
+
+      </mj-social>
+    </mj-column>
+  </mj-section>
+
+  <mj-section>
+    <mj-column>
+      <mj-divider/>
+    </mj-column>
+  </mj-section>
+
+  <!-- spacer -->
+  <mj-section>
+    <mj-column>
+      <mj-spacer height="60px"/>
+    </mj-column>
+  </mj-section>
+
+  <mj-section>
+    <mj-column>
+      <mj-divider/>
+    </mj-column>
+  </mj-section>
+
+  <!-- table -->
+  <mj-section>
+    <mj-column>
+      <mj-table css-class="mj-table">
+        <tr class="table-tr-h">
+          <th class="table-th">Year</th>
+          <th class="table-th">Language</th>
+          <th class="table-th">Inspired from</th>
+        </tr>
+        <tr class="table-th-d">
+          <td class="table-d">1995</td>
+          <td class="table-d">PHP</td>
+          <td class="table-d">C, Shell Unix</td>
+        </tr>
+        <tr class="table-th-d">
+          <td class="table-d">1995</td>
+          <td class="table-d">JavaScript</td>
+          <td class="table-d">Scheme, Self</td>
+        </tr>
+      </mj-table>
+    </mj-column>
+  </mj-section>
+
+  <mj-section>
+    <mj-column>
+      <mj-divider/>
+    </mj-column>
+  </mj-section>
+</mj-wrapper>
+
+<!-- Stacked papers effect -->
+<mj-section background-color="transparent" padding="0px">
+  <mj-column>
+    <mj-image src="https://refine.digital/brand/email/email-body-white-bottom-transparent.png" alt="bottom border" align="center" border="none" padding="0px"></mj-image>
+  </mj-column>
+</mj-section>

@@ -1,0 +1,6 @@
+<mj-head>
+  <mj-include path="./mj-head-font.mjml"/>
+  <mj-include path="./mj-head-style.mjml"/>
+  <mj-include path="./mj-head-attributes.mjml"/>
+  <mj-include path="./mj-head-html-attributes.mjml"/>
+</mj-head>

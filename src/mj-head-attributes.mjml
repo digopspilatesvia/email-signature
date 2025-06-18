@@ -1,0 +1,142 @@
+<!--
+mjml > mj-head > mj-attributes
+
+Inside mj-attributes, a tag citing one MJML component (like mj-text; see example) overrides default settings for listed MJML attributes on the one component.
+
+An mj-all is like the above, but affects all MJML components via the one tag.
+
+mj-class tags create a named group of MJML attributes you can apply to MJML components. To apply them, use mj-class="<name>".
+
+<mj-attributes>
+    <mj-text padding="0" />
+    <mj-class name="blue" color="blue" />
+    <mj-class name="big" font-size="20px" />
+    <mj-all font-family="Arial" />
+</mj-attributes>
+
+In the following list, MJML applies only the first MJML attributes found:
+    - inline MJML attributes,
+    - the entry for the same MJML component (like, "mj-text") in "mj-attributes",
+    - "mj-all" in "mj-attributes",
+    - and default MJML values.
+-->
+<mj-attributes>
+
+  <!-- Sizes for Any Text -->
+  <mj-class name="text-xs"
+    font-size="13.385px;font-size:1.26rem;font-size:calc(1.2rem + (-0.1869935601 * ((100vw - 36rem) / 100.6)))"
+    line-height="20.0909px;line-height:calc(6px + 2ex)"
+  ></mj-class>
+
+  <mj-class name="text-s"
+    font-size="15.0875px;font-size:1.42rem;font-size:calc(1.3rem + (0.0503375844 * ((100vw - 36rem) / 100.6)))"
+    line-height="21.8805px;line-height:calc(6px + 2ex)"
+  ></mj-class>
+
+  <mj-class name="text-m"
+    font-size="19.125px;font-size:1.8rem;font-size:calc(1.6rem + (0.2 * ((100vw - 36rem) / 100.6)))"
+    line-height="26.0562px;line-height:calc(6px + 2ex)"
+  ></mj-class>
+
+  <mj-class name="text-l"
+    font-size="21.515625px;font-size:2.025rem;font-size:calc(1.92rem + (0.4794 * ((100vw - 36rem) / 100.6)))"
+    line-height="28.2848px;line-height:calc(6px + 2ex)"
+  ></mj-class>
+
+  <mj-class name="text-xl"
+    font-size="24.225px;font-size:2.28rem;font-size:calc(2.304rem + (0.8944002 * ((100vw - 36rem) / 100.6)))"
+    line-height="30.7577px;line-height:calc(6px + 2ex)"
+  ></mj-class>
+
+  <mj-class name="text-xxl"
+    font-size="27.253125px;font-size:2.565rem;font-size:calc(2.7648rem + (1.4986674666 * ((100vw - 36rem) / 100.6)))"
+    line-height="33.7103px;line-height:calc(6px + 2ex)"
+  ></mj-class>
+
+  <mj-class name="h--1"
+    font-family:'Tilt Neon'!important;
+    margin-block:1rem 0;
+    line-height:calc(4px + 2ex);
+    font-size="64px;font-size:2.565rem;font-size:calc(2.7648rem + (1.4986674666 * ((100vw - 36rem) / 100.6)))"
+    line-height="68px;line-height:calc(4px + 2ex)"
+  ></mj-class>
+
+  <mj-class name="h--2"
+    font-family:'Tilt Neon'!important;
+    margin-block:1rem 0;
+    line-height:calc(4px + 2ex);
+    font-size="40px;font-size:2.28rem;font-size:calc(2.592rem + (0.961778 * ((100vw - 36rem) / 100.6)))"
+    line-height="44px;line-height:calc(4px + 2ex)"
+  ></mj-class>
+
+  <mj-class name="h--3"
+    font-family:'Tilt Neon'!important;
+    margin-block:1rem 0;
+    line-height:calc(4px + 2ex);
+    font-size="32px;font-size:2.025rem;font-size:calc(2.16rem + (0.506 * ((100vw - 36rem) / 100.6)))"
+    line-height="36px;line-height:calc(4px + 2ex)"
+  ></mj-class>
+
+  <mj-class name="h--4"
+    font-family:'Tilt Neon'!important;
+    margin-block:1rem 0;
+    line-height:calc(4px + 2ex);
+    font-size="24px;font-size:1.8rem;font-size:calc(1.8rem + (0.2 * ((100vw - 36rem) / 100.6)))"
+      line-height="28px;line-height:calc(4px + 2ex)"
+  ></mj-class>
+
+  <mj-class name="h--5"
+    font-family:'Tilt Neon'!important;
+    margin-block:1rem 0;
+    line-height:calc(4px + 2ex);
+    font-size="17px;font-size:1.42rem;font-size:calc(1.3rem + (0.2003750938 * ((100vw - 36rem) / 100.6)))"
+      line-height="25px;line-height:calc(4px + 2ex)"
+  ></mj-class>
+
+
+  <mj-section
+    background-color="#f2f5f9"
+    padding="24px 0"
+  ></mj-section>
+
+  <mj-column
+    width="100%"
+    padding="0 15px"
+  ></mj-column>
+
+  <mj-text
+    padding="0"
+    color="#000307"
+    font-size="19.125px"
+    line-height="24.75px"
+  ></mj-text>
+
+  <mj-divider
+    border-width="1px"
+    border-color="#91accb"
+  ></mj-divider>
+
+  <mj-image
+    border-radius="12px"
+    fluid-on-mobile="true"
+    padding="0"
+  ></mj-image>
+
+  <!-- COMPONENTS -->
+
+  <!-- Any Components working for Signature?
+  <mj-include path="./mj-head-attributes-accordion.mjml"/>
+  <mj-include path="./mj-head-attributes-carousel.mjml"/>
+  <mj-include path="./mj-head-attributes-hero.mjml"/>
+  <mj-include path="./mj-head-attributes-spacer.mjml"/>
+-->
+<mj-include path="./mj-head-attributes-button.mjml"/>
+<mj-include path="./mj-head-attributes-navbar.mjml"/>
+<mj-include path="./mj-head-attributes-social.mjml"/>
+
+
+  <!-- Set system fonts as default -->
+  <mj-all font-family="system-ui, 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'">
+  </mj-all>
+
+</mj-attributes>

@@ -1,0 +1,35 @@
+<!--
+mjml > mj-head > mj-attributes
+
+mj-accordion is an interactive MJML component to stack content in tabs, so the information is collapsed and only the titles are visible. Readers can interact by clicking on the tabs to reveal the content, providing a great experience on mobile devices where space is scarce.
+
+https://documentation.mjml.io/#mj-accordion
+
+NOTE: Icon is NOT visible in VS Code Preview or MJML Preview. Preview in Browser to sse the icon elements.
+
+NOTE: Additional styling in mj-head-style.mjml is optional
+-->
+<mj-accordion
+  border="none"
+  padding="0"
+></mj-accordion>
+
+<mj-accordion-title
+  font-size="17px"
+  padding="16px"
+  background-color="#CFEDD5"
+></mj-accordion-title>
+
+<mj-accordion-element
+  icon-position="left"
+  icon-wrapped-url="https://refine.digital/brand/icons/caret-down.png"
+  icon-unwrapped-url="https://refine.digital/brand/icons/caret-up.png"
+  icon-height="24px"
+  icon-width="24px"
+></mj-accordion-element>
+
+<mj-accordion-text
+  font-size="17px"
+  line-height="22px"
+  padding="16px"
+></mj-accordion-text>

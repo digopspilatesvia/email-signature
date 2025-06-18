@@ -1,0 +1,35 @@
+<!--
+mjml > mj-head > mj-attributes
+
+https://documentation.mjml.io/#mj-navbar
+
+  mj-navbar
+  Individual links of the menu should be wrapped inside mj-navbar.
+
+   The "hamburger" feature only work on mobile device with all iOS mail client, for others mail clients the render is performed on an normal way, the links are displayed inline and the hamburger is not visible.
+
+   All the attributes prefixed with ico- help to customize the hamburger icon. They only work with the hamburger mode enabled.
+
+  mj-navbar-link
+  This component should be used to display an individual link in the navbar.
+
+  The mj-navbar-link component must be used inside a mj-navbar component only.
+
+  `mj-navbar-link` is an "ending tag", which means it can contain HTML code which will be left as it is, so it can contain HTML tags with attributes, but it cannot contain other MJML components. More information about ending tags in this section.
+-->
+<mj-navbar
+  hamburger="hamburger"
+  ico-font-family="system-ui, 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'"
+  ico-color="#000307"
+  ico-font-size="44px"
+  ico-line-height="44px"
+></mj-navbar>
+
+<mj-navbar-link
+  color="#000307"
+  target="_blank"
+  font-size="19.125px"
+  line-height="24.75px"
+  text-decoration="underline"
+  text-transform="none"
+></mj-navbar-link>

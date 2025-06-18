@@ -1,0 +1,87 @@
+<!--
+mjml > mj-head > mj-attributes
+
+https://documentation.mjml.io/#mj-social
+
+  mj-social
+
+  Displays calls-to-action for various social networks with their associated logo. You can add social networks with the mj-social-element tag.
+
+  `mj-social-element`'s `name` attribute is a shortcut for some common social elements.
+  You should avoid rely too much on this as those icons are hosted by Mailjet for their Email Builder.
+  Use custom element syntax instead.
+
+  mj-social-element
+This component enables you to display a given social network inside mj-social. Note that default icons are transparent, which allows background-color to actually be the icon color.
+
+Supported networks with a share url: - facebook - twitter - x - google - pinterest - linkedin - tumblr - xing
+
+Without a share url: - github - instagram - web - snapchat - youtube - vimeo - medium - soundcloud - dribbble
+
+When using a network with share url, the href attribute will be inserted in the share url (i.e. https://www.facebook.com/sharer/sharer.php?u=[[URL]]). To keep your href unchanged, add -noshare to the network name. Example :
+
+<mj-social-element name="twitter-noshare" href="my-unchanged-url">Twitter</mj-social-element>
+
+Custom Social Element
+You can add any unsupported network like this:
+<mj-social-element href="url" background-color="#FF00FF" src="path-to-your-icon">
+  Optional label
+</mj-social-element>
+
+You can also use mj-social this way with no href attribute to make a simple list of inlined images-texts.
+
+
+mj-social-element
+This component enables you to display a given social network inside mj-social. Note that default icons are transparent, which allows background-color to actually be the icon color.
+
+mj-social
+--
+mode	string	vertical/horizontal	horizontal
+
+mj-social-element
+--
+name	string	social network name, see supported list below	N/A
+
+Share url:
+- facebook
+- twitter
+- x
+- google
+- pinterest
+- linkedin
+- tumblr
+- xing
+
+Without a share url:
+- github
+- instagram
+- web
+- snapchat
+- youtube
+- vimeo
+- medium
+- soundcloud
+- dribbble
+
+background-color	color	icon color	Each social name has its own default
+-->
+<mj-social
+  mode="horizontal"
+  align="center"
+  padding="0"
+  color="#003D87"
+  font-family="system-ui, 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'"
+  font-size="24px"
+  line-height="28px"
+  text-padding="4px 4px 4px 0"
+  inner-padding="4px"
+  icon-size="24px"
+  mode="horizontal"
+></mj-social>
+
+<mj-social-element
+  icon-size="24px"
+  padding="10px"
+  color="#003D87"
+  background-color="transparent"
+></mj-social-element>

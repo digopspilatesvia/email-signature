@@ -1,0 +1,42 @@
+<!-- The Footer of the Email -->
+
+<mj-section background-color="#e1e1e1">
+  <mj-column>
+    <mj-social
+      align="center">
+      <mj-social-element
+      name="linkedin"
+      icon-size="36px"
+      icon-padding="8px"
+      src="https://refine.digital/brand/icons/linkedin-logo.png"
+      href="https://refine.digital/#linkedin">
+      Linkedin
+      </mj-social-element>
+      <mj-social-element
+        name="web"
+        icon-size="36px"
+        icon-padding="8px"
+          src="https://refine.digital/brand/icons/web-logo.png"
+        href="https://refine.digital/#web">
+        Web
+      </mj-social-element>
+    </mj-social>
+    <mj-text align="center">
+        You are receiving this email advertisement because you Lorem ipsum... and agreed to receive emails from us regarding Lorem ipsum....
+    </mj-text>
+    <mj-text align="center">
+        <h5>&copy; Company Name., All Rights Reserved.</h5>
+    </mj-text>
+  </mj-column>
+</mj-section>
+
+<mj-section background-color="#e1e1e1">
+  <mj-column>
+    <mj-text align="center">
+        <a class="footer-link" href="#">Privacy</a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;<a class="footer-link" href="#">Unsubscribe</a>
+    </mj-text>
+    <mj-text align="center" padding="24px 0">
+      View this email in your browser
+    </mj-text>
+      </mj-column>
+</mj-section>

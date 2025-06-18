@@ -1,0 +1,4 @@
+<mjml lang="en" dir="ltr">
+  <mj-include path="./mj-head.mjml" />
+  <mj-include path="./mj-body.mjml" />
+</mjml>

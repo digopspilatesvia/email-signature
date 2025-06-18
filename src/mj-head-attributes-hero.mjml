@@ -1,0 +1,22 @@
+<!--
+mjml > mj-head > mj-attributes
+
+https://documentation.mjml.io/#mj-hero
+
+This element displays a hero image. It behaves like an mj-section with a single mj-column.
+
+background-height and background-width attributes are mandatory.
+
+It's best to use an image with width the same as the mj-body width (width="600px" by default). For better results, it's best to use an image with height the same or larger than the height of mj-hero.
+
+Use background-color to provide a fallback color in case an email client doesn't support background-url.
+
+Note! The "height" attribute is required only for 'mode="fixed-height"'.
+-->
+<mj-hero
+  mode="fluid-height"
+  background-color="#CFEDD5"
+  background-width="600px"
+  vertical-align="middle"
+  padding="0 25px"
+></mj-hero>

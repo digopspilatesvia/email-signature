@@ -1,0 +1,135 @@
+<!-- signature centered -->
+<mj-wrapper padding="10px">
+    <mj-section
+        background-color="#f2f5f9"
+        padding="12px"
+        css-class="box_shadow radius-m">
+
+        <mj-column>
+            <mj-image
+                href="https://go.worksport.se/ring"
+                src="https://dev.worksport.se/brand/email/hakan-wikstrom-foto-email.png"
+                srcset="https://dev.worksport.se/brand/email/hakan-wikstrom-foto-email-80x80.png 80w,
+                    https://dev.worksport.se/brand/email/hakan-wikstrom-foto-email-240x240.png 240w,
+                    https://dev.worksport.se/brand/email/hakan-wikstrom-foto-email-320x320.png 320w,
+                    https://dev.worksport.se/brand/email/hakan-wikstrom-foto-email-480x480.png 480w"
+                height="160px"
+                width="160px"
+                fluid-on-mobile="false"
+                align="center"
+                css-class="radius-circle" />
+        </mj-column>
+
+        <mj-column vertical-align="middle">
+            <mj-text padding="30px 0 0 0" align="center" mj-class="p__content text-l">
+                Håkan Wikström
+            </mj-text>
+
+            <mj-text padding="5px 0 0 0" align="center" mj-class="p__content text-m">
+                VD & Ägare
+            </mj-text>
+
+            <mj-divider/>
+
+            <mj-button
+                href="https://go.worksport.se/ring"
+                font-size="20px"
+                title="Ring Håkan"
+                css-class="icon-link"
+                color="inherit">
+                <div mj-class="text-l">Ring Håkan<img src="https://dev.worksport.se/brand/email/caret-right-email.png"
+                    srcset="https://dev.worksport.se/brand/email/caret-right-email-36x36.png 36w,
+                    https://dev.worksport.se/brand/email/caret-right-email-48x48.png 48w,
+                    https://dev.worksport.se/brand/email/caret-right-email-72x72.png 72w,
+                    https://dev.worksport.se/brand/email/caret-right-email-96x96.png 96w">
+                </div>
+            </mj-button>
+
+            <mj-button
+                href="https://go.worksport.se/mejla"
+                font-size="20px"
+                title="Mejla Håkan"
+                css-class="icon-link"
+                color="inherit">
+                <div>Mejla Håkan<img src="https://dev.worksport.se/brand/email/caret-right-email.png"
+                    srcset="https://dev.worksport.se/brand/email/caret-right-email-36x36.png 36w,
+                            https://dev.worksport.se/brand/email/caret-right-email-48x48.png 48w,
+                            https://dev.worksport.se/brand/email/caret-right-email-72x72.png 72w,
+                            https://dev.worksport.se/brand/email/caret-right-email-96x96.png 96w">
+                </div>
+            </mj-button>
+        </mj-column>
+    </mj-section>
+</mj-wrapper>
+
+<!-- social -->
+<mj-section background-color="transparent">
+    <mj-column>
+        <mj-social>
+            <!-- to use custom href without social share feature, add -noshare to the name,
+            ex. facebook-noshare. Default the href is added as a parameter the social share
+            url -->
+
+            <mj-social-element
+                name="linkedin-noshare"
+                src="https://dev.worksport.se/brand/email/linkedin-logo-email.png"
+                srcset=
+                    "https://dev.worksport.se/brand/email/linkedin-logo-email-36x36.png 36w,
+                    https://dev.worksport.se/brand/email/linkedin-logo-email-48x48.png 48w,
+                    https://dev.worksport.se/brand/email/linkedin-logo-email-72x72.png 72w,
+                    https://dev.worksport.se/brand/email/linkedin-logo-email-96x96.png 96w"
+                href="https://go.worksport.se/linkedin">
+                Linkedin
+            </mj-social-element>
+
+            <mj-social-element
+                name="web-noshare"
+                src="https://dev.worksport.se/brand/email/web-logo-email.png"
+                srcset=
+                    "https://dev.worksport.se/brand/email/web-logo-email-36x36.png 36w,
+                    https://dev.worksport.se/brand/email/web-logo-email-48x48.png 48w,
+                    https://dev.worksport.se/brand/email/web-logo-email-72x72.png 72w,
+                    https://dev.worksport.se/brand/email/web-logo-email-96x96.png 96w"
+                href="https://go.worksport.se/webbsajt">
+                Webbsajt
+            </mj-social-element>
+
+            <mj-social-element
+                name="chat-noshare"
+                src="https://dev.worksport.se/brand/email/chat-circle-text-email.png"
+                srcset="https://dev.worksport.se/brand/email/chat-circle-text-email-36x36.png 36w,
+                        https://dev.worksport.se/brand/email/chat-circle-text-email-48x48.png 48w,
+                        https://dev.worksport.se/brand/email/chat-circle-text-email-72x72.png 72w,
+                        https://dev.worksport.se/brand/email/chat-circle-text-email-96x96.png 96w"
+                href="https://go.worksport.se/chatta">
+                Chatta
+            </mj-social-element>
+
+            <mj-social-element
+                name="map-noshare"
+                src="https://dev.worksport.se/brand/email/map-pin-area-email.png"
+                srcset="https://dev.worksport.se/brand/email/map-pin-area-email-36x36.png 36w,
+                        https://dev.worksport.se/brand/email/map-pin-area-email-48x48.png 48w,
+                        https://dev.worksport.se/brand/email/map-pin-area-email-72x72.png 72w,
+                        https://dev.worksport.se/brand/email/map-pin-area-email-96x96.png 96w"
+                href="https://go.worksport.se/hitta">
+                Hitta
+            </mj-social-element>
+        </mj-social>
+    </mj-column>
+</mj-section>
+
+<mj-section background-color="transparent" padding="0">
+    <mj-column>
+        <!-- Logo Email -->
+        <mj-image
+            src="https://dev.worksport.se/brand/email/work-and-sport-portrait-logo-email-glow.png"
+            srcset="https://dev.worksport.se/brand/email/work-and-sport-portrait-logo-email-glow-300x.png 300w,
+                    https://dev.worksport.se/brand/email/work-and-sport-portrait-logo-email-glow-400x.png 400w,
+                    https://dev.worksport.se/brand/email/work-and-sport-portrait-logo-email-glow-600x.png 600w,
+                    https://dev.worksport.se/brand/email/work-and-sport-portrait-logo-email-glow-800x.png 800w"
+            href="https://worksport.se/"
+            width="200px"
+            border-radius="0" />
+    </mj-column>
+</mj-section>

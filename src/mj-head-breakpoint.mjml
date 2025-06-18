@@ -1,0 +1,7 @@
+<!-- https://documentation.mjml.io/#mj-breakpoint
+mjml > mj-head > mj-breakpoint
+
+This tag allows you to control on which breakpoint the layout should go desktop/mobile.
+
+<mj-breakpoint width="320px"/>
+-->

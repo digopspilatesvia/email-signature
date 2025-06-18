@@ -1,0 +1,26 @@
+<!--
+mjml > mj-head > mj-attributes
+
+https://documentation.mjml.io/#mj-carousel
+
+mj-carousel displays a gallery of images or "carousel". Readers can interact by hovering and clicking on thumbnails depending on the email client they use.
+
+This component enables you to set the styles of the carousel elements.
+
+NOTE: Additional styling in mj-head-style.mjml is optional
+
+thumbnails="hidden" (default: visible)
+border-radius="0" (default: 6px )
+tb-border="none" (default: 2px solid transparent)
+tb-border-radius="0" (default: 6px)
+tb-hover-border-color="#000" (default: #fead0d !important)
+tb-selected-border-color="#fff" (default: #cccccc !important)
+-->
+<mj-carousel
+  left-icon="https://refine.digital/brand/icons/caret-left.png"
+  right-icon="https://refine.digital/brand/icons/caret-right.png"
+  border-radius="15px"
+  tb-border-radius="15px"
+  tb-hover-border-color="#000"
+  tb-selected-border-color="#000"
+></mj-carousel>

@@ -1,0 +1,254 @@
+<!-- https://documentation.mjml.io/#mj-style
+mjml > mj-head > mj-style
+
+This tag allows you to set CSS styles that will be applied to the HTML in your MJML document as well as the HTML outputted. The CSS styles will be added to the head of the rendered HTML by default, but can also be inlined by using the inline="inline" attribute.
+
+Here is an example showing the use in combination with the css-class attribute, which is supported by all body components.
+
+inline (default = n/a)
+--
+set to "inline" to inline styles
+
+NOTE! Mjml generates multiple html elements from a single mjml element. For optimal flexibility, the `css-class` will be applied to the most outer html element, so if you want to target a specific sub-element with a css selector, you may need to look at the generated html to see which exact selector you need.
+
+<mj-style inline="inline">
+  .blue-text div {
+    color: blue !important;
+  }
+</mj-style>
+<mj-style>
+  .red-text div {
+    color: red !important;
+    text-decoration: underline !important;
+}
+</mj-style>
+-->
+<mj-style inline="inline">
+  /* Add all fallback first */
+  h1 {
+    /*
+    --space-xs: calc(1.0666666667rem + (0.2666666667 * ((100vw - 36rem) / 100.6)));
+    --space-s: calc(1.6rem + (0.4 * ((100vw - 36rem) / 100.6)));
+    --space-m: calc(2.4rem + (0.6 * ((100vw - 36rem) / 100.6)));
+    --space-l: calc(3.1992rem + (1.3008 * ((100vw - 36rem) / 100.6)));
+    --space-xl: calc(4.2645336rem + (2.4854664 * ((100vw - 36rem) / 100.6)));
+    --space-xxl: calc(5.6846232888rem + (4.4403767112 * ((100vw - 36rem) / 100.6)));
+    --section-space-xs: calc(2.1333333333rem + (1.8666666667 * ((100vw - 36rem) / 100.6)));
+    --section-space-s: calc(3.2rem + (2.8 * ((100vw - 36rem) / 100.6)));
+    --section-space-m: calc(4.8rem + (4.2 * ((100vw - 36rem) / 100.6)));
+    --section-space-l: calc(6.3984rem + (7.1016 * ((100vw - 36rem) / 100.6)));
+    --section-space-xl: calc(8.5290672rem + (11.7209328 * ((100vw - 36rem) / 100.6)));
+    --section-space-xxl: calc(11.3692465776rem + (19.0057534224 * ((100vw - 36rem) / 100.6)));
+    --section-padding-x: calc(2rem + (4 * ((100vw - 36rem) / 100.6)));
+    --gutter: calc(2rem + (4 * ((100vw - 36rem) / 100.6)));
+
+
+    */
+
+    font-size:64px;
+    font-size:calc(3.1104rem + (1.626786074 * ((100vw - 36rem) / 100.6)));
+    line-height:68px;
+  }
+  h2 {
+    font-size:40px;
+    font-size:calc(2.592rem + (0.961778 * ((100vw - 36rem) / 100.6)));
+    line-height:44px;
+  }
+  h3 {
+    font-size:32px;
+    font-size:calc(2.16rem + (0.506 * ((100vw - 36rem) / 100.6)));
+    line-height:36px;
+  }
+  h4 {
+    font-size:24px;
+    font-size:calc(1.8rem + (0.2 * ((100vw - 36rem) / 100.6)));
+    line-height:28px;
+  }
+  h5 {
+    font-size:17px;
+    font-size:calc(1.3rem + (0.2003750938 * ((100vw - 36rem) / 100.6)));
+    line-height:25px;
+  }
+
+  h1,h2,h3,h4,h5 {
+    font-family:'Tilt Neon';
+    margin-block:1rem 0;
+    line-height:calc(4px + 2ex);
+  }
+
+  .p__content {
+    padding-top:17px;
+    font-size:17px;
+    line-height:22px;
+  }
+
+  .section__h h4 {
+    text-decoration: underline;
+    padding-bottom:1rem!important;
+  }
+
+  .box_shadow {
+    -webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+    padding: 5px;
+  }
+
+  .text-light {
+    color:#ffffff!important;
+  }
+
+  .text-dark {
+    color:#000000!important;
+  }
+
+  .text-soft {
+    text-shadow: 2px 4px 4px rgba(0,0,0,0.2),
+                 0px -5px 10px rgba(255,255,255,0.15);
+  }
+
+  .text-glow {
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+  }
+
+  .text-heavy {
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+    0px 8px 13px rgba(0,0,0,0.1),
+    0px 18px 23px rgba(0,0,0,0.1);
+  }
+
+  .text-link { color: #00316d }
+
+  .footer-link { color: #000307 }
+
+  .radius,
+  .radius img {
+    border-radius:12px!important;
+  }
+  .radius-50 {
+    border-radius: 50%;
+  }
+  .radius-circle {
+    border-radius: 50vw;
+  }
+  .radius-xs {
+    border-radius: 5.3333333333px;
+  }
+  .radius-s {
+    border-radius: 8px;
+  }
+  .radius-m {
+    border-radius: 12px;
+    margin:12px;
+  }
+  .radius-l {
+    border-radius: 18px;
+  }
+  .radius-xl {
+    border-radius: 27px;
+  }
+
+  /* COMPONENT ACCORDION */
+  label.mj-accordion-element {
+
+  }
+  div.mj-accordion-title {
+    padding:10px 0;
+  }
+  div.mj-accordion-title td:not(.mj-accordion-ico) {
+    border-radius: 0px 10px 10px 0px;
+  }
+  td.mj-accordion-ico {
+    border-radius: 10px 0px 0px 10px;
+  }
+  div.mj-accordion-content {
+
+  }
+
+  .icon-button a {
+    border: solid 2px #00316d;
+  }
+
+
+  .icon-link td,
+  .icon-link a {
+    background: transparent!important;
+    text-decoration: underline!important;
+    text-underline-offset: 3px!important;
+    padding:0!important;
+  }
+
+  .icon-button a > div,
+  .icon-link a > div {
+    display:flex;
+    align-items: center;
+    gap:0.25rem;
+  }
+  /* using an image */
+  .icon-button a > div > img,
+  .icon-link a > div > img {
+    height:22px;
+  }
+  /* using an transformed border */
+  .icon-button a > div i {
+    border: solid #000307;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin: 5px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+  .mj-carousel-content > table {
+    padding-block: 1rem;
+  }
+
+  /* table design with background colors for header & cells + box shadow */
+  td.mj-table > table {
+    font-size:17px!important;
+    line-height:25px!important;
+    -webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+  }
+  td.mj-table tr.table-tr-h {
+    text-align:center;
+    background-color: #91accb;
+  }
+  td.mj-table th {
+    padding:1rem 0;
+  }
+  td.mj-table tr.table-th-d {
+    text-align:center;
+    background-color: #c2d0e2;
+  }
+  td.mj-table td.table-d {
+    padding:0.5rem 1rem;
+  }
+</mj-style>
+
+<!-- Not Inline Styles -->
+<mj-style>
+  .icon-button td,
+  .icon-button a {
+    transition: all 100ms ease-in;
+  }
+
+  .icon-button td:hover,
+  .icon-button td:hover a{
+    background:transparent!important;
+    background-color: transparent!important;
+    text-decoration: underline!important;
+    text-underline-offset: 3px;
+    font-weight:800!important;
+  }
+
+
+  .icon-button td:hover a > div,
+  .icon-link td:hover a,
+  .icon-link td:hover a > div {
+    font-weight:800!important;
+    gap:0.5rem!important;
+  }
+</mj-style>

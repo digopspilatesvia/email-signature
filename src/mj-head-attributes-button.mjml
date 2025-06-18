@@ -1,0 +1,20 @@
+<!--
+mjml > mj-head > mj-attributes
+
+Displays a customizable button. The `mj-button` won't be fully clickable because of client support. See discussion at Issue #359.
+
+https://documentation.mjml.io/#mj-accordion
+
+NOTE: Icon is NOT visible in VS Code Preview or MJML Preview. Preview in Browser to sse the icon elements.
+
+NOTE: Additional styling in mj-head-style.mjml is optional
+  padding="12px 24px"
+-->
+<mj-button
+  padding="12px 0"
+  inner-padding="12px 24px"
+  background-color="#00316d"
+  color="#ffffff"
+  border-radius="999px"
+  font-size="17px"
+></mj-button>
