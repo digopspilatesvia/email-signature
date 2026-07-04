@@ -32,31 +32,23 @@
 
             <mj-divider/>
 
-            <mj-button
-                href="https://go.worksport.se/ring"
+<mj-button
+                href="{{contactLinks.baseURL}}{{contactLinks.callLink}}"
                 font-size="20px"
-                title="Ring Håkan"
                 css-class="icon-link"
-                color="inherit">
-                <div mj-class="text-l">Ring Håkan<img src="https://dev.worksport.se/brand/email/caret-right-email.png"
-                    srcset="https://dev.worksport.se/brand/email/caret-right-email-36x36.png 36w,
-                    https://dev.worksport.se/brand/email/caret-right-email-48x48.png 48w,
-                    https://dev.worksport.se/brand/email/caret-right-email-72x72.png 72w,
-                    https://dev.worksport.se/brand/email/caret-right-email-96x96.png 96w">
+                color="{{brandIdentity.colors.white}}">
+                <div mj-class="text-l">Ring Håkan<img src="{{assetPaths.baseURL}}{{assetPaths.caretRightIconUrl}}"
+                    srcset="{{assetPaths.baseURL}}{{assetPaths.caretRightIconSrcset}}">
                 </div>
             </mj-button>
 
             <mj-button
-                href="https://go.worksport.se/mejla"
+                href="{{contactLinks.baseURL}}{{contactLinks.mailLink}}"
                 font-size="20px"
-                title="Mejla Håkan"
                 css-class="icon-link"
-                color="inherit">
-                <div>Mejla Håkan<img src="https://dev.worksport.se/brand/email/caret-right-email.png"
-                    srcset="https://dev.worksport.se/brand/email/caret-right-email-36x36.png 36w,
-                            https://dev.worksport.se/brand/email/caret-right-email-48x48.png 48w,
-                            https://dev.worksport.se/brand/email/caret-right-email-72x72.png 72w,
-                            https://dev.worksport.se/brand/email/caret-right-email-96x96.png 96w">
+                color="{{brandIdentity.colors.white}}">
+                <div>Mejla Håkan<img src="{{assetPaths.baseURL}}{{assetPaths.caretRightIconUrl}}"
+                    srcset="{{assetPaths.baseURL}}{{assetPaths.caretRightIconSrcset}}">
                 </div>
             </mj-button>
         </mj-column>
@@ -66,11 +58,10 @@
 <!-- social -->
 <mj-section background-color="transparent">
     <mj-column>
+        <!-- to use custom href without social share feature, add -noshare to the name,
+        ex. facebook-noshare. Default the href is added as a parameter the social share
+        url -->
         <mj-social>
-            <!-- to use custom href without social share feature, add -noshare to the name,
-            ex. facebook-noshare. Default the href is added as a parameter the social share
-            url -->
-
             <mj-social-element
                 name="linkedin-noshare"
                 src="https://dev.worksport.se/brand/email/linkedin-logo-email.png"

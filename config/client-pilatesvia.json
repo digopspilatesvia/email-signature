@@ -1,60 +1,60 @@
 {
-  "clientName": "Pilates Via",
+  "clientName": "New Client",
+
+  "globalBaseUrls": {
+    "mainWebsite": ""
+  },
 
   "brandIdentity": {
-    "baseURL": "https://worksport.se/brand/",
+    "baseURL": "",
     "colors": {
-      // Primary shades and tints directly from automatic.css
-      "primary": "#6d126f",
-      "primary-hover": "#821584",
-      "primary-ultra-light": "#fbe9fb",
-      "primary-light": "#f3bdf4",
-      "primary-semi-light": "#e465e6",
-      "semi-dark": "#97199a",
-      "dark": "#6c126e",
-      "ultra-dark": "#2b072c",
+      "primary": "#000000",
+      "primary-hover": "#000000",
+      "primary-ultra-light": "#ffffff",
+      "primary-light": "#ffffff",
+      "primary-semi-light": "#000000",
+      "semi-dark": "#000000",
+      "dark": "#000000",
+      "ultra-dark": "#000000",
 
-      // Primary transparent colors
       "primary-trans": {
-        "10": "rgba(109, 18, 111, 0.1)", "20": "rgba(109, 18, 111, 0.2)",
-        "30": "rgba(109, 18, 111, 0.3)", "40": "rgba(109, 18, 111, 0.4)",
-        "50": "rgba(109, 18, 111, 0.5)", "60": "rgba(109, 18, 111, 0.6)",
-        "70": "rgba(109, 18, 111, 0.7)", "80": "rgba(109, 18, 111, 0.8)",
-        "90": "rgba(109, 18, 111, 0.9)"
+        "10": "rgba(0, 0, 0, 0.1)", "20": "rgba(0, 0, 0, 0.2)",
+        "30": "rgba(0, 0, 0, 0.3)", "40": "rgba(0, 0, 0, 0.4)",
+        "50": "rgba(0, 0, 0, 0.5)", "60": "rgba(0, 0, 0, 0.6)",
+        "70": "rgba(0, 0, 0, 0.7)", "80": "rgba(0, 0, 0, 0.8)",
+        "90": "rgba(0, 0, 0, 0.9)"
       },
       "primary-light-trans": {
-        "10": "rgba(243, 189, 244, 0.1)", "20": "rgba(243, 189, 244, 0.2)",
-        "30": "rgba(243, 189, 244, 0.3)", "40": "rgba(243, 189, 244, 0.4)",
-        "50": "rgba(243, 189, 244, 0.5)", "60": "rgba(243, 189, 244, 0.6)",
-        "70": "rgba(243, 189, 244, 0.7)", "80": "rgba(243, 189, 244, 0.8)",
-        "90": "rgba(243, 189, 244, 0.9)"
+        "10": "rgba(255, 255, 255, 0.1)", "20": "rgba(255, 255, 255, 0.2)",
+        "30": "rgba(255, 255, 255, 0.3)", "40": "rgba(255, 255, 255, 0.4)",
+        "50": "rgba(255, 255, 255, 0.5)", "60": "rgba(255, 255, 255, 0.6)",
+        "70": "rgba(255, 255, 255, 0.7)", "80": "rgba(255, 255, 255, 0.8)",
+        "90": "rgba(255, 255, 255, 0.9)"
       },
       "primary-dark-trans": {
-        "10": "rgba(108, 18, 110, 0.1)", "20": "rgba(108, 18, 110, 0.2)",
-        "30": "rgba(108, 18, 110, 0.3)", "40": "rgba(108, 18, 110, 0.4)",
-        "50": "rgba(108, 18, 110, 0.5)", "60": "rgba(108, 18, 110, 0.6)",
-        "70": "rgba(108, 18, 110, 0.7)", "80": "rgba(108, 18, 110, 0.8)",
-        "90": "rgba(108, 18, 110, 0.9)"
+        "10": "rgba(0, 0, 0, 0.1)", "20": "rgba(0, 0, 0, 0.2)",
+        "30": "rgba(0, 0, 0, 0.3)", "40": "rgba(0, 0, 0, 0.4)",
+        "50": "rgba(0, 0, 0, 0.5)", "60": "rgba(0, 0, 0, 0.6)",
+        "70": "rgba(0, 0, 0, 0.7)", "80": "rgba(0, 0, 0, 0.8)",
+        "90": "rgba(0, 0, 0, 0.9)"
       },
       "primary-ultra-dark-trans": {
-        "10": "rgba(43, 7, 44, 0.1)", "20": "rgba(43, 7, 44, 0.2)",
-        "30": "rgba(43, 7, 44, 0.3)", "40": "rgba(43, 7, 44, 0.4)",
-        "50": "rgba(43, 7, 44, 0.5)", "60": "rgba(43, 7, 44, 0.6)",
-        "70": "rgba(43, 7, 44, 0.7)", "80": "rgba(43, 7, 44, 0.8)",
-        "90": "rgba(43, 7, 44, 0.9)"
+        "10": "rgba(0, 0, 0, 0.1)", "20": "rgba(0, 0, 0, 0.2)",
+        "30": "rgba(0, 0, 0, 0.3)", "40": "rgba(0, 0, 0, 0.4)",
+        "50": "rgba(0, 0, 0, 0.5)", "60": "rgba(0, 0, 0, 0.6)",
+        "70": "rgba(0, 0, 0, 0.7)", "80": "rgba(0, 0, 0, 0.8)",
+        "90": "rgba(0, 0, 0, 0.9)"
       },
 
-      // Neutral shades and tints directly from automatic.css
       "neutral": "#000000",
-      "neutral-hover": "black",
-      "neutral-ultra-light": "#f2f2f2",
-      "neutral-light": "#d9d9d9",
-      "neutral-semi-light": "#a6a6a6",
-      "neutral-semi-dark": "#595959",
-      "neutral-dark": "#404040",
-      "neutral-ultra-dark": "#1a1a1a",
+      "neutral-hover": "#000000",
+      "neutral-ultra-light": "#ffffff",
+      "neutral-light": "#ffffff",
+      "neutral-semi-light": "#000000",
+      "neutral-semi-dark": "#000000",
+      "neutral-dark": "#000000",
+      "neutral-ultra-dark": "#000000",
 
-      // Neutral transparent colors
       "neutral-trans": {
         "10": "rgba(0, 0, 0, 0.1)", "20": "rgba(0, 0, 0, 0.2)",
         "30": "rgba(0, 0, 0, 0.3)", "40": "rgba(0, 0, 0, 0.4)",
@@ -63,30 +63,29 @@
         "90": "rgba(0, 0, 0, 0.9)"
       },
       "neutral-light-trans": {
-        "10": "rgba(217, 217, 217, 0.1)", "20": "rgba(217, 217, 217, 0.2)",
-        "30": "rgba(217, 217, 217, 0.3)", "40": "rgba(217, 217, 217, 0.4)",
-        "50": "rgba(217, 217, 217, 0.5)", "60": "rgba(217, 217, 217, 0.6)",
-        "70": "rgba(217, 217, 217, 0.7)", "80": "rgba(217, 217, 217, 0.8)",
-        "90": "rgba(217, 217, 217, 0.9)"
+        "10": "rgba(255, 255, 255, 0.1)", "20": "rgba(255, 255, 255, 0.2)",
+        "30": "rgba(255, 255, 255, 0.3)", "40": "rgba(255, 255, 255, 0.4)",
+        "50": "rgba(255, 255, 255, 0.5)", "60": "rgba(255, 255, 255, 0.6)",
+        "70": "rgba(255, 255, 255, 0.7)", "80": "rgba(255, 255, 255, 0.8)",
+        "90": "rgba(255, 255, 255, 0.9)"
       },
       "neutral-dark-trans": {
-        "10": "rgba(64, 64, 64, 0.1)", "20": "rgba(64, 64, 64, 0.2)",
-        "30": "rgba(64, 64, 64, 0.3)", "40": "rgba(64, 64, 64, 0.4)",
-        "50": "rgba(64, 64, 64, 0.5)", "60": "rgba(64, 64, 64, 0.6)",
-        "70": "rgba(64, 64, 64, 0.7)", "80": "rgba(64, 64, 64, 0.8)",
-        "90": "rgba(64, 64, 64, 0.9)"
+        "10": "rgba(0, 0, 0, 0.1)", "20": "rgba(0, 0, 0, 0.2)",
+        "30": "rgba(0, 0, 0, 0.3)", "40": "rgba(0, 0, 0, 0.4)",
+        "50": "rgba(0, 0, 0, 0.5)", "60": "rgba(0, 0, 0, 0.6)",
+        "70": "rgba(0, 0, 0, 0.7)", "80": "rgba(0, 0, 0, 0.8)",
+        "90": "rgba(0, 0, 0, 0.9)"
       },
       "neutral-ultra-dark-trans": {
-        "10": "rgba(26, 26, 26, 0.1)", "20": "rgba(26, 26, 26, 0.2)",
-        "30": "rgba(26, 26, 26, 0.3)", "40": "rgba(26, 26, 26, 0.4)",
-        "50": "rgba(26, 26, 26, 0.5)", "60": "rgba(26, 26, 26, 0.6)",
-        "70": "rgba(26, 26, 26, 0.7)", "80": "rgba(26, 26, 26, 0.8)",
-        "90": "rgba(26, 26, 26, 0.9)"
+        "10": "rgba(0, 0, 0, 0.1)", "20": "rgba(0, 0, 0, 0.2)",
+        "30": "rgba(0, 0, 0, 0.3)", "40": "rgba(0, 0, 0, 0.4)",
+        "50": "rgba(0, 0, 0, 0.5)", "60": "rgba(0, 0, 0, 0.6)",
+        "70": "rgba(0, 0, 0, 0.7)", "80": "rgba(0, 0, 0, 0.8)",
+        "90": "rgba(0, 0, 0, 0.9)"
       },
 
-      // Basic black and white from automatic.css, and their transparent variations
-      "white": "#fff",
-      "black": "#000",
+      "white": "#ffffff",
+      "black": "#000000",
       "white-trans": {
         "10": "rgba(255, 255, 255, 0.1)", "20": "rgba(255, 255, 255, 0.2)",
         "30": "rgba(255, 255, 255, 0.3)", "40": "rgba(255, 255, 255, 0.4)",
@@ -102,61 +101,153 @@
         "90": "rgba(0, 0, 0, 0.9)"
       },
 
-      // Link-specific colors
       "links": {
-        "default": "#00316d",
-        "footer": "#000307",
-        "hover": "#003D87"
+        "default": "#000000",
+        "footer": "#000000",
+        "hover": "#000000"
       },
 
-      // Other specific usage colors, flat structure for direct mapping
-      "accentColor": "#861689",
-      "lightBackground": "#f2f5f9", // Used for mj-section in signature
-      "tableHeaderColor": "#91accb",
-      "tableDataColor": "#c2d0e2",
-      "buttonDefaultBackgroundColor": "#00316d",
-      "socialIconColor": "#003D87",
-      "textDefaultColor": "#000307",
-      "textAccentColor": "#396843",
-      "productFeatureBg1": "#5CA76C",
-      "productFeatureBg2": "#475862",
-      "socialIconCircleBg": "#CFEDD5"
+      "accentColor": "#000000",
+      "lightBackground": "#ffffff",
+      "tableHeaderColor": "#ffffff",
+      "tableDataColor": "#ffffff",
+      "buttonDefaultBackgroundColor": "#000000",
+      "socialIconColor": "#000000",
+      "textDefaultColor": "#000000",
+      "textAccentColor": "#000000",
+      "productFeatureBg1": "#000000",
+      "productFeatureBg2": "#000000",
+      "socialIconCircleBg": "#ffffff"
     },
-    "fontPrimaryFamily": "'Tilt Neon'",
-    "fontSecondaryFamily": "system-ui, 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-    "fontPrimaryHref": "fonts/fonts-email-august-bold.css",
-    "fontSecondaryHref": "fonts/fonts-email-inter-tight.css"
+    "fontPrimaryFamily": "",
+    "fontSecondaryFamily": "",
+    "fontPrimaryHref": "",
+    "fontSecondaryHref": "",
+    "fontPrimaryName": "",
+    "fontSecondaryName": ""
+  },
+
+  "typography": {
+    "text-xs": {
+      "fontSize": "13.385px;font-size:1.26rem;font-size:calc(1.2rem + (-0.1869935601 * ((100vw - 36rem) / 100.6)))",
+      "lineHeight": "20.0909px;line-height:calc(6px + 2ex)"
+    },
+    "text-s": {
+      "fontSize": "15.0875px;font-size:1.42rem;font-size:calc(1.3rem + (0.0503375844 * ((100vw - 36rem) / 100.6)))",
+      "lineHeight": "21.8805px;line-height:calc(6px + 2ex)"
+    },
+    "text-m": {
+      "fontSize": "19.125px;font-size:1.8rem;font-size:calc(1.6rem + (0.2 * ((100vw - 36rem) / 100.6)))",
+      "lineHeight": "26.0562px;line-height:calc(6px + 2ex)"
+    },
+    "text-l": {
+      "fontSize": "21.515625px;font-size:2.025rem;font-size:calc(1.92rem + (0.4794 * ((100vw - 36rem) / 100.6)))",
+      "lineHeight": "28.2848px;line-height:calc(6px + 2ex)"
+    },
+    "text-xl": {
+      "fontSize": "24.225px;font-size:2.28rem;font-size:calc(2.304rem + (0.8944002 * ((100vw - 36rem) / 100.6)))",
+      "lineHeight": "30.7577px;line-height:calc(6px + 2ex)"
+    },
+    "text-xxl": {
+      "fontSize": "27.253125px;font-size:2.565rem;font-size:calc(2.7648rem + (1.4986674666 * ((100vw - 36rem) / 100.6)))",
+      "lineHeight": "33.7103px;line-height:calc(6px + 2ex)"
+    },
+    "h--1": {
+      "fontSize": "64px;font-size:2.565rem;font-size:calc(2.7648rem + (1.4986674666 * ((100vw - 36rem) / 100.6)))",
+      "lineHeight": "68px;line-height:calc(4px + 2ex)"
+    },
+    "h--2": {
+      "fontSize": "40px;font-size:2.28rem;font-size:calc(2.592rem + (0.961778 * ((100vw - 36rem) / 100.6)))",
+      "lineHeight": "44px;line-height:calc(4px + 2ex)"
+    },
+    "h--3": {
+      "fontSize": "32px;font-size:2.025rem;font-size:calc(2.16rem + (0.506 * ((100vw - 36rem) / 100.6)))",
+      "lineHeight": "36px;line-height:calc(4px + 2ex)"
+    },
+    "h--4": {
+      "fontSize": "24px;font-size:1.8rem;font-size:calc(1.8rem + (0.2 * ((100vw - 36rem) / 100.6)))",
+      "lineHeight": "28px;line-height:calc(4px + 2ex)"
+    },
+    "h--5": {
+      "fontSize": "17px;font-size:1.42rem;font-size:calc(1.3rem + (0.2003750938 * ((100vw - 36rem) / 100.6)))",
+      "lineHeight": "25px;line-height:calc(4px + 2ex)"
+    }
+  },
+
+  "components": {
+    "navbar": {
+      "icoFontSize": "44px",
+      "icoLineHeight": "44px"
+    },
+    "navbarLink": {
+      "fontSize": "19.125px",
+      "lineHeight": "24.75px"
+    },
+    "button": {
+      "defaultFontSize": "17px",
+      "defaultPadding": "12px 0",
+      "defaultInnerPadding": "12px 24px",
+      "borderRadius": "999px"
+    },
+    "social": {
+      "defaultFontSize": "24px",
+      "defaultLineHeight": "28px",
+      "defaultTextPadding": "4px 4px 4px 4px",
+      "defaultInnerPadding": "4px",
+      "defaultIconSize": "24px"
+    },
+    "image": {
+      "personPhotoWidth": "160px",
+      "personPhotoHeight": "160px",
+      "logoWidth": "200px",
+      "carouselBackgroundHeight": "400px",
+      "columnImageHeight": "300px",
+      "caretIconHeight": "22px"
+    },
+    "spacer": {
+      "defaultHeight": "60px"
+    },
+    "radius": {
+        "default": "12px",
+        "xs": "5.3333333333px",
+        "s": "8px",
+        "m": "12px",
+        "l": "18px",
+        "xl": "27px",
+        "fiftyPercent": "50%",
+        "circle": "50vw",
+        "defaultHeroBorderRadius": "0",
+        "defaultTableBorderRadius": "0"
+    }
   },
 
   "personDetails": {
     "baseURL": "",
-    "name": "Håkan Wikström",
-    "title": "VD & Ägare",
-    "photoUrl": "email/hakan-wikstrom-foto-email.png",
-    "photoSrcset": "email/hakan-wikstrom-foto-email-80x80.png 80w,\n                    email/hakan-wikstrom-foto-email-240x240.png 240w,\n                    email/hakan-wikstrom-foto-email-320x320.png 320w,\n                    email/hakan-wikstrom-foto-email-480x480.png 480w"
-
+    "name": "",
+    "title": "",
+    "photoUrl": "",
+    "photoSrcset": ""
   },
+
   "contactLinks": {
-    "baseURL": "https://go.worksport.se/",
-    "callLink": "ring",
-    "mailLink": "mejla",
-    "linkedinLink": "linkedin",
-    "websiteLink": "webbsajt",
-    "chatLink": "chatta",
-    "findUsLink": "hitta"
+    "baseURL": "",
+    "callLink": "",
+    "mailLink": "",
+    "linkedinLink": "",
+    "websiteLink": "",
+    "chatLink": "",
+    "findUsLink": ""
   },
 
   "assetPaths": {
-    "baseURL": "https://dev.worksport.se/brand/",
-    "imageFolder": "email/",
-    "fontFolder": "fonts/",
-    "logoImageUrl": "email/work-and-sport-portrait-logo-email-glow.png",
-    "logoImageSrcset": "email/work-and-sport-portrait-logo-email-glow-300x.png 300w,\n                    email/work-and-sport-portrait-logo-email-glow-400x.png 400w,\n                    email/work-and-sport-portrait-logo-email-glow-600x.png 600w,\n                    email/work-and-sport-portrait-logo-email-glow-800x.png 800w",
-    "caretRightIconUrl": "email/caret-right-email.png",
-    "caretRightIconSrcset": "email/caret-right-email-36x36.png 36w,\n                            email/caret-right-email-48x48.png 48w,\n                            email/caret-right-email-72x72.png 72w,\n                            email/caret-right-email-96x96.png 96w"
+    "baseURL": "",
+    "imageFolder": "",
+    "fontFolder": "",
+    "logoImageUrl": "",
+    "logoImageSrcset": "",
+    "caretRightIconUrl": "",
+    "caretRightIconSrcset": ""
   },
 
-  "developmentSettings": {
-    // This section can be used for settings specific to development/testing.
-  }
+  "developmentSettings": {}
 }

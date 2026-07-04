@@ -20,17 +20,17 @@ https://documentation.mjml.io/#mj-navbar
 -->
 <mj-navbar
   hamburger="hamburger"
-  ico-font-family="system-ui, 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'"
-  ico-color="#000307"
+  ico-font-family="{{brandIdentity.fontSecondaryFamilyCss}}"
+  ico-color="{{brandIdentity.colors.textDefaultColor}}"
   ico-font-size="44px"
   ico-line-height="44px"
 ></mj-navbar>
 
 <mj-navbar-link
-  color="#000307"
+  color="{{brandIdentity.colors.textDefaultColor}}"
   target="_blank"
-  font-size="19.125px"
-  line-height="24.75px"
+  font-size="{{brandIdentity.typography.text-m.fontSize}}"
+  line-height="{{brandIdentity.typography.text-m.lineHeight}}"
   text-decoration="underline"
   text-transform="none"
 ></mj-navbar-link>

@@ -14,8 +14,8 @@ NOTE: Additional styling in mj-head-style.mjml is optional
 <mj-button
   padding="12px 0"
   inner-padding="12px 24px"
-  background-color="#00316d"
-  color="#ffffff"
+  background-color="{{brandIdentity.colors.buttonDefaultBackgroundColor}}"
+  color="{{brandIdentity.colors.white}}"
   border-radius="999px"
   font-size="17px"
 ></mj-button>

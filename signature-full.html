@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+  <title>
+  </title>
+  <!--[if !mso]><!-- -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--<![endif]-->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style type="text/css">
+    #outlook a {
+      padding: 0;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+
+    table,
+    td {
+      border-collapse: collapse;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+
+    img {
+      border: 0;
+      height: auto;
+      line-height: 100%;
+      outline: none;
+      text-decoration: none;
+      -ms-interpolation-mode: bicubic;
+    }
+
+    p {
+      display: block;
+      margin: 13px 0;
+    }
+  </style>
+  <!--[if mso]>
+        <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]-->
+  <!--[if lte mso 11]>
+        <style type="text/css">
+          .mj-outlook-group-fix { width:100% !important; }
+        </style>
+        <![endif]-->
+  <style type="text/css">
+    @media only screen and (min-width:480px) {
+      .mj-column-per-100 {
+        width: 100% !important;
+        max-width: 100%;
+      }
+    }
+  </style>
+  <style type="text/css">
+    @media only screen and (max-width:480px) {
+      table.mj-full-width-mobile {
+        width: 100% !important;
+      }
+
+      td.mj-full-width-mobile {
+        width: auto !important;
+      }
+    }
+  </style>
+  <style type="text/css">
+    .icon-button td,
+    .icon-button a {
+      transition: all 100ms ease-in;
+    }
+
+    .icon-button td:hover,
+    .icon-button td:hover a {
+      background: transparent !important;
+      background-color: transparent !important;
+      text-decoration: underline !important;
+      text-underline-offset: 3px;
+      font-weight: 800 !important;
+    }
+
+    .icon-button td:hover a>div,
+    .icon-link td:hover a,
+    .icon-link td:hover a>div {
+      font-weight: 800 !important;
+      gap: 0.5rem !important;
+    }
+  </style>
+  <!-- file:src/mj-head-font.mjml -->
+  <!-- file:src/mj-head-style.mjml -->
+  <!-- https://documentation.mjml.io/#mj-style
+mjml > mj-head > mj-style
+
+This tag allows you to set CSS styles that will be applied to the HTML in your MJML document as well as the HTML outputted. The CSS styles will be added to the head of the rendered HTML by default, but can also be inlined by using the inline="inline" attribute.
+
+Here is an example showing the use in combination with the css-class attribute, which is supported by all body components.
+
+inline (default = n/a)
+--
+set to "inline" to inline styles
+
+NOTE! Mjml generates multiple html elements from a single mjml element. For optimal flexibility, the `css-class` will be applied to the most outer html element, so if you want to target a specific sub-element with a css selector, you may need to look at the generated html to see which exact selector you need.
+
+<mj-style inline="inline">
+  .blue-text div {
+    color: blue !important;
+  }
+</mj-style>
+<mj-style>
+  .red-text div {
+    color: red !important;
+    text-decoration: underline !important;
+}
+</mj-style> -->
+  <!-- file:src/mj-head-attributes.mjml -->
+  <!-- mjml > mj-head > mj-attributes
+
+Inside mj-attributes, a tag citing one MJML component (like mj-text; see example) overrides default settings for listed MJML attributes on the one component.
+
+An mj-all is like the above, but affects all MJML components via the one tag.
+
+mj-class tags create a named group of MJML attributes you can apply to MJML components. To apply them, use mj-class="<name>".
+
+<mj-attributes>
+    <mj-text padding="0" />
+    <mj-class name="blue" color="blue" />
+    <mj-class name="big" font-size="20px" />
+    <mj-all font-family="Arial" />
+</mj-attributes>
+
+In the following list, MJML applies only the first MJML attributes found:
+    - inline MJML attributes,
+    - the entry for the same MJML component (like, "mj-text") in "mj-attributes",
+    - "mj-all" in "mj-attributes",
+    - and default MJML values. -->
+  <!-- file:src/mj-head-html-attributes.mjml -->
+  <!-- https://documentation.mjml.io/#mj-html-attributes
+mjml > mj-head > mj-html-attributes
+
+This tag allows you to add custom attributes on any html tag of the generated html, using css selectors. It's not needed for most email creations, but can be useful in some cases, i.e. editable templates.
+
+In the generated html, a mj-text becomes a td, and a div inside this td. In this example, the td will have the class="custom". Using the css selector path=".custom div", the div inside the td will get the attribute data-id="42".
+
+To use this component, you will likely have to look at the generated html to see where exactly are the css-class applied, to know which css selector you need to use to add your custom attribute on the right html tag.
+
+You can use multiple mj-selector inside a mj-html-attributes, and multiple mj-html-attribute inside a mj-selector.
+
+<mj-selector path=".custom div">
+    <mj-html-attribute name="data-id">42</mj-html-attribute>
+</mj-selector> -->
+</head>
+
+<body style="background-color:#ffffff;">
+  <div style="background-color:#ffffff;">
+    <!-- file:src/mj-body-signature.mjml --><!-- signature centered -->
+    <!--[if mso | IE]>
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+    <div style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:10px;text-align:center;">
+              <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+            <tr>
+              <td
+                 class="box_shadow-outlook radius-m-outlook" width="600px"
+              >
+          
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="box_shadow-outlook radius-m-outlook" style="width:580px;" width="580"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+              <div class="box_shadow radius-m" style="-webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); padding: 5px; border-radius: 12px; background: #f2f5f9; background-color: #f2f5f9; margin: 0px auto; max-width: 580px;">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#f2f5f9;background-color:#f2f5f9;width:100%;">
+                  <tbody>
+                    <tr>
+                      <td style="direction:ltr;font-size:0px;padding:12px;text-align:center;">
+                        <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="" style="vertical-align:top;width:556px;"
+            >
+          <![endif]-->
+                        <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                            <tbody>
+                              <tr>
+                                <td style="vertical-align:top;padding:0 15px;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style width="100%">
+                                    <tr>
+                                      <td align="center" class="radius-circle" style="border-radius: 50vw; font-size: 0px; padding: 0; word-break: break-word;">
+                                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                                          <tbody>
+                                            <tr>
+                                              <td style="width:160px;">
+                                                <a href="https://go.worksport.se/ring" target="_blank">
+                                                  <img height="160" src="https://dev.worksport.se/brand/email/hakan-wikstrom-foto-email.png" srcset="https://dev.worksport.se/brand/email/hakan-wikstrom-foto-email-80x80.png 80w,
+                    https://dev.worksport.se/brand/email/hakan-wikstrom-foto-email-240x240.png 240w,
+                    https://dev.worksport.se/brand/email/hakan-wikstrom-foto-email-320x320.png 320w,
+                    https://dev.worksport.se/brand/email/hakan-wikstrom-foto-email-480x480.png 480w" style="border:0;border-radius:12px;display:block;outline:none;text-decoration:none;height:160px;width:100%;font-size:13px;" width="160">
+                                                </a>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <!--[if mso | IE]>
+            </td>
+          
+            <td
+               class="" style="vertical-align:middle;width:556px;"
+            >
+          <![endif]-->
+                        <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                            <tbody>
+                              <tr>
+                                <td style="vertical-align:middle;padding:0 15px;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style width="100%">
+                                    <tr>
+                                      <td align="center" style="font-size:0px;padding:30px 0 0 0;word-break:break-word;">
+                                        <div style="font-family:{{brandIdentity.fontSecondaryFamilyCss}};font-size:21.515625px;font-size:2.025rem;font-size:calc(1.92rem + (0.4794 * ((100vw - 36rem) / 100.6)));line-height:28.2848px;line-height:calc(6px + 2ex);text-align:center;color:{{brandIdentity.colors.textDefaultColor}};">Håkan Wikström</div>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" style="font-size:0px;padding:5px 0 0 0;word-break:break-word;">
+                                        <div style="font-family:{{brandIdentity.fontSecondaryFamilyCss}};font-size:19.125px;font-size:1.8rem;font-size:calc(1.6rem + (0.2 * ((100vw - 36rem) / 100.6)));line-height:26.0562px;line-height:calc(6px + 2ex);text-align:center;color:{{brandIdentity.colors.textDefaultColor}};">VD & Ägare</div>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                                        <p style="border-top:solid 1px {{brandIdentity.colors.secondary-light}};font-size:1px;margin:0px auto;width:100%;">
+                                        </p>
+                                        <!--[if mso | IE]>
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px {{brandIdentity.colors.secondary-light}};font-size:1px;margin:0px auto;width:476px;" role="presentation" width="476px"
+        >
+          <tr>
+            <td style="height:0;line-height:0;">
+              &nbsp;
+            </td>
+          </tr>
+        </table>
+      <![endif]-->
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" vertical-align="middle" class="icon-link" style="font-size:0px;padding:12px 0;word-break:break-word;">
+                                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                                          <tr>
+                                            <td align="center" bgcolor="{{brandIdentity.colors.buttonDefaultBackgroundColor}}" role="presentation" style="border: none; border-radius: 999px; cursor: auto; mso-padding-alt: 12px 24px; background: transparent; text-decoration: underline; text-underline-offset: 3px; padding: 0;" valign="middle">
+                                              <a href="{{contactLinks.baseURL}}{{contactLinks.callLink}}" style="display: inline-block; color: {{brandIdentity.colors.white}}; font-family: {{brandIdentity.fontSecondaryFamilyCss}}; font-size: 20px; font-weight: normal; line-height: 120%; margin: 0; text-transform: none; mso-padding-alt: 0px; border-radius: 999px; background: transparent; text-decoration: underline; text-underline-offset: 3px; padding: 0;" target="_blank">
+                                                <div mj-class="text-l" style="display: flex; align-items: center; gap: 0.25rem;">Ring Håkan<img src="{{assetPaths.baseURL}}{{assetPaths.caretRightIconUrl}}" srcset="{{assetPaths.baseURL}}{{assetPaths.caretRightIconSrcset}}" style="height: 22px;" height="22">
+                                                </div>
+                                              </a>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" vertical-align="middle" class="icon-link" style="font-size:0px;padding:12px 0;word-break:break-word;">
+                                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                                          <tr>
+                                            <td align="center" bgcolor="{{brandIdentity.colors.buttonDefaultBackgroundColor}}" role="presentation" style="border: none; border-radius: 999px; cursor: auto; mso-padding-alt: 12px 24px; background: transparent; text-decoration: underline; text-underline-offset: 3px; padding: 0;" valign="middle">
+                                              <a href="{{contactLinks.baseURL}}{{contactLinks.mailLink}}" style="display: inline-block; color: {{brandIdentity.colors.white}}; font-family: {{brandIdentity.fontSecondaryFamilyCss}}; font-size: 20px; font-weight: normal; line-height: 120%; margin: 0; text-transform: none; mso-padding-alt: 0px; border-radius: 999px; background: transparent; text-decoration: underline; text-underline-offset: 3px; padding: 0;" target="_blank">
+                                                <div style="display: flex; align-items: center; gap: 0.25rem;">Mejla Håkan<img src="{{assetPaths.baseURL}}{{assetPaths.caretRightIconUrl}}" srcset="{{assetPaths.baseURL}}{{assetPaths.caretRightIconSrcset}}" style="height: 22px;" height="22">
+                                                </div>
+                                              </a>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+              </td>
+            </tr>
+          
+                  </table>
+                <![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+    <!-- social -->
+    <!--[if mso | IE]>
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+    <div style="background:transparent;background-color:transparent;margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:transparent;background-color:transparent;width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:24px 0;text-align:center;">
+              <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="" style="vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  <tbody>
+                    <tr>
+                      <td style="vertical-align:top;padding:0 15px;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style width="100%">
+                          <!-- to use custom href without social share feature, add -noshare to the name,
+        ex. facebook-noshare. Default the href is added as a parameter the social share
+        url -->
+                          <tr>
+                            <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
+                              <!--[if mso | IE]>
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+      >
+        <tr>
+      
+              <td>
+            <![endif]-->
+                              <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                                <tr>
+                                  <td style="padding:10px;vertical-align:middle;">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:transparent;border-radius:3px;width:24px;">
+                                      <tr>
+                                        <td style="font-size:0;height:24px;vertical-align:middle;width:24px;">
+                                          <a href="https://go.worksport.se/linkedin" target="_blank">
+                                            <img height="24" src="https://dev.worksport.se/brand/email/linkedin-logo-email.png" style="border-radius:3px;display:block;" width="24" srcset="https://dev.worksport.se/brand/email/linkedin-logo-email-36x36.png 36w,
+                    https://dev.worksport.se/brand/email/linkedin-logo-email-48x48.png 48w,
+                    https://dev.worksport.se/brand/email/linkedin-logo-email-72x72.png 72w,
+                    https://dev.worksport.se/brand/email/linkedin-logo-email-96x96.png 96w">
+                                          </a>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                  <td style="vertical-align:middle;padding:4px 4px 4px 4px;">
+                                    <a href="https://go.worksport.se/linkedin" style="color:{{brandIdentity.colors.socialIconColor}};font-size:24px;font-family:{{brandIdentity.fontSecondaryFamilyCss}};line-height:28px;text-decoration:none;" target="_blank"> Linkedin </a>
+                                  </td>
+                                </tr>
+                              </table>
+                              <!--[if mso | IE]>
+              </td>
+            
+              <td>
+            <![endif]-->
+                              <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                                <tr>
+                                  <td style="padding:10px;vertical-align:middle;">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:transparent;border-radius:3px;width:24px;">
+                                      <tr>
+                                        <td style="font-size:0;height:24px;vertical-align:middle;width:24px;">
+                                          <a href="https://go.worksport.se/webbsajt" target="_blank">
+                                            <img height="24" src="https://dev.worksport.se/brand/email/web-logo-email.png" style="border-radius:3px;display:block;" width="24" srcset="https://dev.worksport.se/brand/email/web-logo-email-36x36.png 36w,
+                    https://dev.worksport.se/brand/email/web-logo-email-48x48.png 48w,
+                    https://dev.worksport.se/brand/email/web-logo-email-72x72.png 72w,
+                    https://dev.worksport.se/brand/email/web-logo-email-96x96.png 96w">
+                                          </a>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                  <td style="vertical-align:middle;padding:4px 4px 4px 4px;">
+                                    <a href="https://go.worksport.se/webbsajt" style="color:{{brandIdentity.colors.socialIconColor}};font-size:24px;font-family:{{brandIdentity.fontSecondaryFamilyCss}};line-height:28px;text-decoration:none;" target="_blank"> Webbsajt </a>
+                                  </td>
+                                </tr>
+                              </table>
+                              <!--[if mso | IE]>
+              </td>
+            
+              <td>
+            <![endif]-->
+                              <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                                <tr>
+                                  <td style="padding:10px;vertical-align:middle;">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:transparent;border-radius:3px;width:24px;">
+                                      <tr>
+                                        <td style="font-size:0;height:24px;vertical-align:middle;width:24px;">
+                                          <a href="https://go.worksport.se/chatta" target="_blank">
+                                            <img height="24" src="https://dev.worksport.se/brand/email/chat-circle-text-email.png" style="border-radius:3px;display:block;" width="24" srcset="https://dev.worksport.se/brand/email/chat-circle-text-email-36x36.png 36w,
+                        https://dev.worksport.se/brand/email/chat-circle-text-email-48x48.png 48w,
+                        https://dev.worksport.se/brand/email/chat-circle-text-email-72x72.png 72w,
+                        https://dev.worksport.se/brand/email/chat-circle-text-email-96x96.png 96w">
+                                          </a>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                  <td style="vertical-align:middle;padding:4px 4px 4px 4px;">
+                                    <a href="https://go.worksport.se/chatta" style="color:{{brandIdentity.colors.socialIconColor}};font-size:24px;font-family:{{brandIdentity.fontSecondaryFamilyCss}};line-height:28px;text-decoration:none;" target="_blank"> Chatta </a>
+                                  </td>
+                                </tr>
+                              </table>
+                              <!--[if mso | IE]>
+              </td>
+            
+              <td>
+            <![endif]-->
+                              <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+                                <tr>
+                                  <td style="padding:10px;vertical-align:middle;">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:transparent;border-radius:3px;width:24px;">
+                                      <tr>
+                                        <td style="font-size:0;height:24px;vertical-align:middle;width:24px;">
+                                          <a href="https://go.worksport.se/hitta" target="_blank">
+                                            <img height="24" src="https://dev.worksport.se/brand/email/map-pin-area-email.png" style="border-radius:3px;display:block;" width="24" srcset="https://dev.worksport.se/brand/email/map-pin-area-email-36x36.png 36w,
+                        https://dev.worksport.se/brand/email/map-pin-area-email-48x48.png 48w,
+                        https://dev.worksport.se/brand/email/map-pin-area-email-72x72.png 72w,
+                        https://dev.worksport.se/brand/email/map-pin-area-email-96x96.png 96w">
+                                          </a>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                  <td style="vertical-align:middle;padding:4px 4px 4px 4px;">
+                                    <a href="https://go.worksport.se/hitta" style="color:{{brandIdentity.colors.socialIconColor}};font-size:24px;font-family:{{brandIdentity.fontSecondaryFamilyCss}};line-height:28px;text-decoration:none;" target="_blank"> Hitta </a>
+                                  </td>
+                                </tr>
+                              </table>
+                              <!--[if mso | IE]>
+              </td>
+            
+          </tr>
+        </table>
+      <![endif]-->
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+    <div style="background:transparent;background-color:transparent;margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:transparent;background-color:transparent;width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
+              <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="" style="vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  <tbody>
+                    <tr>
+                      <td style="vertical-align:top;padding:0 15px;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style width="100%">
+                          <!-- Logo Email -->
+                          <tr>
+                            <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
+                              <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;" class="mj-full-width-mobile">
+                                <tbody>
+                                  <tr>
+                                    <td style="width:200px;" class="mj-full-width-mobile">
+                                      <a href="https://worksport.se/" target="_blank">
+                                        <img height="auto" src="https://dev.worksport.se/brand/email/work-and-sport-portrait-logo-email-glow.png" srcset="https://dev.worksport.se/brand/email/work-and-sport-portrait-logo-email-glow-300x.png 300w,
+                    https://dev.worksport.se/brand/email/work-and-sport-portrait-logo-email-glow-400x.png 400w,
+                    https://dev.worksport.se/brand/email/work-and-sport-portrait-logo-email-glow-600x.png 600w,
+                    https://dev.worksport.se/brand/email/work-and-sport-portrait-logo-email-glow-800x.png 800w" style="border:0;border-radius:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="200">
+                                      </a>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+  </div>
+</body>
+
+</html>

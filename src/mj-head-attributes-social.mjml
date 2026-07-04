@@ -70,11 +70,11 @@ background-color	color	icon color	Each social name has its own default
   mode="horizontal"
   align="center"
   padding="0"
-  color="#003D87"
-  font-family="system-ui, 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'"
+  color="{{brandIdentity.colors.socialIconColor}}"
+  font-family="{{brandIdentity.fontSecondaryFamilyCss}}"
   font-size="24px"
   line-height="28px"
-  text-padding="4px 4px 4px 0"
+  text-padding="4px 4px 4px 4px"
   inner-padding="4px"
   icon-size="24px"
   mode="horizontal"
@@ -83,6 +83,6 @@ background-color	color	icon color	Each social name has its own default
 <mj-social-element
   icon-size="24px"
   padding="10px"
-  color="#003D87"
+  color="{{brandIdentity.colors.socialIconColor}}"
   background-color="transparent"
-></mj-social-element>
+></mj-social-element> 
